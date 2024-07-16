@@ -22,6 +22,20 @@
         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Courses/Introduction%20to%20Finance/"/>
     </url>
     <url>
+        <loc>NoneCourses/Principles%20of%20Economics%20%28I%29/Principles%20of%20Economics/</loc>
+        <lastmod>2024-07-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneCourses/Principles%20of%20Economics%20%28I%29/Principles%20of%20Economics/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Courses/Principles%20of%20Economics%20%28I%29/Principles%20of%20Economics/"/>
+    </url>
+    <url>
+        <loc>NoneCourses/Principles%20of%20Economics%20%28I%29/</loc>
+        <lastmod>2024-07-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneCourses/Principles%20of%20Economics%20%28I%29/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Courses/Principles%20of%20Economics%20%28I%29/"/>
+    </url>
+    <url>
         <loc>Nonezh/</loc>
         <lastmod>2024-07-16</lastmod>
         <changefreq>daily</changefreq>
@@ -41,5 +55,19 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Courses/Introduction%20to%20Finance/"/>
         <xhtml:link rel="alternate" hreflang="en" href="NoneCourses/Introduction%20to%20Finance/"/>
+    </url>
+    <url>
+        <loc>Nonezh/Courses/Principles%20of%20Economics%20%28I%29/Principles%20of%20Economics/</loc>
+        <lastmod>2024-07-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Courses/Principles%20of%20Economics%20%28I%29/Principles%20of%20Economics/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneCourses/Principles%20of%20Economics%20%28I%29/Principles%20of%20Economics/"/>
+    </url>
+    <url>
+        <loc>Nonezh/Courses/Principles%20of%20Economics%20%28I%29/</loc>
+        <lastmod>2024-07-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/Courses/Principles%20of%20Economics%20%28I%29/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneCourses/Principles%20of%20Economics%20%28I%29/"/>
     </url>
 </urlset>

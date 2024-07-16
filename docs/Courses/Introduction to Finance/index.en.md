@@ -35,3 +35,10 @@ This course provides a preliminary yet comprehensive understanding of what the f
 - <a href="Introduction to Finance/#financial-fragility" target="_self">Financial Fragility</a>
 
 *Note: Some necessary graphics are missing in my notes, so some extra information may be needed to fully comprehend my notes.*
+
+## Online Resources
+
+This course covers a plethora of concepts, and in many cases online resources can help us understand these concepts.
+
+- [Investopedia](https://www.investopedia.com/)
+- [Wikipedia](https://www.wikipedia.org/)

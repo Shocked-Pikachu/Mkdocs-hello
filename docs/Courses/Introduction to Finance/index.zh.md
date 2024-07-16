@@ -35,3 +35,10 @@
 - <a href="Introduction to Finance/#financial-fragility" target="_self">Financial Fragility（金融脆弱性）</a>
 
 *注：由于本课程的授课语言为英文，因此这里的笔记也以英文为主。本人笔记中缺少必要的图形，可能需要一些其他的资料辅助理解笔记的内容。*
+
+## 在线资源
+
+本门课程涉及大量概念性知识，很多情况下在线资源可以帮助我们理解这些概念。
+
+- [Investopedia（投资百科）](https://www.investopedia.com/)
+- [Wikipedia（维基百科）](https://www.wikipedia.org/)

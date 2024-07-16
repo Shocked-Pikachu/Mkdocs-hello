@@ -1,0 +1,4766 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../../Introduction%20to%20Finance/">
+      
+      
+        <link rel="next" href="../">
+      
+      
+      <link rel="icon" href="../../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.13">
+    
+    
+      
+        <title>经济学原理（I）课程笔记 - 莫 的主页</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.7e359304.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="pink">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#i" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../../../" title="莫 的主页" class="md-header__button md-logo" aria-label="莫 的主页" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            莫 的主页
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              经济学原理（I）课程笔记
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="pink"  aria-label="切换至暗色模式"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="切换至暗色模式" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5c-.84 0-1.65.15-2.39.42L12 2M3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29L3.34 7m.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14L3.36 17M20.65 7l-1.77 3.79a7.023 7.023 0 0 0-2.38-4.15l4.15.36m-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29L20.64 17M12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44L12 22Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="切换至亮色模式"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="切换至亮色模式" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3 3.19.09m3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95 2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="选择当前语言">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24Z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="../../../../Courses/Principles%20of%20Economics%20%28I%29/Principles%20of%20Economics/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="zh" class="md-select__link">
+              简体中文
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="分享" aria-label="分享" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../" class="md-tabs__link">
+        
+  
+    
+  
+  关于
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../Introduction%20to%20Finance/Introduction%20to%20Finance/" class="md-tabs__link">
+          
+  
+    
+  
+  课程
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../" title="莫 的主页" class="md-nav__button md-logo" aria-label="莫 的主页" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    莫 的主页
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    关于
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    课程
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            课程
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+          
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Introduction%20to%20Finance/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    金融学概论
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            金融学概论
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Introduction%20to%20Finance/Introduction%20to%20Finance/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    金融学概论课程笔记
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+          
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    经济学原理（I）
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            经济学原理（I）
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    经济学原理（I）课程笔记
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    经济学原理（I）课程笔记
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#principles-of-economics" class="md-nav__link">
+    <span class="md-ellipsis">
+      经济学基本原理（Principles of Economics）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="经济学基本原理（Principles of Economics）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      人们面临权衡取舍
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="人们面临权衡取舍">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#opportunity-cost" class="md-nav__link">
+    <span class="md-ellipsis">
+      机会成本（Opportunity Cost）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      取舍的标准
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      生产存在边界
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="生产存在边界">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#production-possibility-frontier" class="md-nav__link">
+    <span class="md-ellipsis">
+      生产可能性边界（Production Possibility Frontier）
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      人们会对激励做出反应
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      理性人考虑边际
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gains-from-trade" class="md-nav__link">
+    <span class="md-ellipsis">
+      双赢的贸易（Gains from Trade）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="双赢的贸易（Gains from Trade）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      贸易促进专业化？
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-market-forces-of-supply-and-demand" class="md-nav__link">
+    <span class="md-ellipsis">
+      供需的市场力量（The Market Forces of Supply and Demand）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="供需的市场力量（The Market Forces of Supply and Demand）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      需求和需求量
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      需求定律和需求曲线
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="需求定律和需求曲线">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-law-of-demand" class="md-nav__link">
+    <span class="md-ellipsis">
+      需求定律（the law of demand）
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      供给与供给量的变化
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#equilibrium-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      均衡分析（Equilibrium Analysis）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="均衡分析（Equilibrium Analysis）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      供需定理
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comparative-statics" class="md-nav__link">
+    <span class="md-ellipsis">
+      比较静态分析（Comparative Statics）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      边际的力量
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#elasticity-and-its-application" class="md-nav__link">
+    <span class="md-ellipsis">
+      弹性及其应用（Elasticity and Its Application）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="弹性及其应用（Elasticity and Its Application）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      弹性与斜率
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="弹性与斜率">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#perfectly-inelastic-demand" class="md-nav__link">
+    <span class="md-ellipsis">
+      完全无弹性的需求（perfectly inelastic demand）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#perfectly-elastic-demand" class="md-nav__link">
+    <span class="md-ellipsis">
+      完全弹性的需求（perfectly elastic demand）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unit-elastic-demand" class="md-nav__link">
+    <span class="md-ellipsis">
+      单位弹性的需求（unit elastic demand）
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      需求弹性的例子
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      需求价格弹性的决定因素
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      弹性的应用
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="弹性的应用">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      弹性与均衡分析
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      供给弹性
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="供给弹性">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#unit-elastic-supply" class="md-nav__link">
+    <span class="md-ellipsis">
+      单位弹性的供给（unit elastic supply）
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#income-elasticity-of-demand" class="md-nav__link">
+    <span class="md-ellipsis">
+      需求收入弹性（Income Elasticity of Demand）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cross-price-elasticity-of-demand" class="md-nav__link">
+    <span class="md-ellipsis">
+      需求交叉弹性（Cross-Price Elasticity of Demand）
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#markets-and-government-policies" class="md-nav__link">
+    <span class="md-ellipsis">
+      市场与政策（Markets and Government Policies）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="市场与政策（Markets and Government Policies）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#price-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      价格控制（Price Control）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="价格控制（Price Control）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      价格上限
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      票证的历史沿革
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_20" class="md-nav__link">
+    <span class="md-ellipsis">
+      价格下限
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quantity-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      数量管制（Quantity Control）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tax-and-subsidy" class="md-nav__link">
+    <span class="md-ellipsis">
+      税收与补贴（Tax and Subsidy）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="税收与补贴（Tax and Subsidy）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_21" class="md-nav__link">
+    <span class="md-ellipsis">
+      税收的影响
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_22" class="md-nav__link">
+    <span class="md-ellipsis">
+      税收负担
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_23" class="md-nav__link">
+    <span class="md-ellipsis">
+      补贴
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#market-efficiency" class="md-nav__link">
+    <span class="md-ellipsis">
+      市场效率（Market Efficiency）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="市场效率（Market Efficiency）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#consumer-surplus" class="md-nav__link">
+    <span class="md-ellipsis">
+      消费者剩余（Consumer Surplus）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="消费者剩余（Consumer Surplus）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#willingness-to-pay-wtp" class="md-nav__link">
+    <span class="md-ellipsis">
+      支付意愿（Willingness to pay, WTP）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_24" class="md-nav__link">
+    <span class="md-ellipsis">
+      引入市场和价格
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#producer-surplus" class="md-nav__link">
+    <span class="md-ellipsis">
+      生产者剩余（Producer Surplus）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="生产者剩余（Producer Surplus）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#willingness-to-sell" class="md-nav__link">
+    <span class="md-ellipsis">
+      出售意愿（Willingness to sell）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_25" class="md-nav__link">
+    <span class="md-ellipsis">
+      引入市场和价格
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#welfare-analysis-of-equilibrium" class="md-nav__link">
+    <span class="md-ellipsis">
+      对均衡的福利分析（Welfare Analysis of Equilibrium）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#welfare-analysis-of-policies" class="md-nav__link">
+    <span class="md-ellipsis">
+      对政策的福利评价（Welfare Analysis of Policies）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="对政策的福利评价（Welfare Analysis of Policies）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_26" class="md-nav__link">
+    <span class="md-ellipsis">
+      价格上限
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_27" class="md-nav__link">
+    <span class="md-ellipsis">
+      税收
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_28" class="md-nav__link">
+    <span class="md-ellipsis">
+      无谓损失的决定因素
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#externality-and-public-good" class="md-nav__link">
+    <span class="md-ellipsis">
+      外部性及公共品（Externality and Public Good）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="外部性及公共品（Externality and Public Good）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#externality" class="md-nav__link">
+    <span class="md-ellipsis">
+      外部性（externality）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="外部性（externality）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_29" class="md-nav__link">
+    <span class="md-ellipsis">
+      负外部性的影响
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_30" class="md-nav__link">
+    <span class="md-ellipsis">
+      矫正外部性
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_31" class="md-nav__link">
+    <span class="md-ellipsis">
+      税收
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_32" class="md-nav__link">
+    <span class="md-ellipsis">
+      许可证
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="许可证">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tradable-permits" class="md-nav__link">
+    <span class="md-ellipsis">
+      可交易的许可证（tradable permits）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#permits" class="md-nav__link">
+    <span class="md-ellipsis">
+      不可交易的许可证（permits）
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_33" class="md-nav__link">
+    <span class="md-ellipsis">
+      无谓损失产生的原因
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#coase-theorem" class="md-nav__link">
+    <span class="md-ellipsis">
+      科斯定理（Coase Theorem）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_34" class="md-nav__link">
+    <span class="md-ellipsis">
+      正外部性的影响
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_35" class="md-nav__link">
+    <span class="md-ellipsis">
+      公共品和共有资源
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="公共品和共有资源">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_36" class="md-nav__link">
+    <span class="md-ellipsis">
+      解决市场失灵：政府的介入
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_37" class="md-nav__link">
+    <span class="md-ellipsis">
+      共有地悲剧
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#consumer-theory" class="md-nav__link">
+    <span class="md-ellipsis">
+      消费者理论（Consumer Theory）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="消费者理论（Consumer Theory）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#budget-constraint" class="md-nav__link">
+    <span class="md-ellipsis">
+      预算约束（Budget Constraint）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_38" class="md-nav__link">
+    <span class="md-ellipsis">
+      消费者偏好的刻画
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_39" class="md-nav__link">
+    <span class="md-ellipsis">
+      消费者行为的预测
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_40" class="md-nav__link">
+    <span class="md-ellipsis">
+      比较静态分析
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      应用1：劳动供给曲线
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      应用2：消费者的储蓄决策
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#producer-theory" class="md-nav__link">
+    <span class="md-ellipsis">
+      厂商理论（Producer Theory）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="厂商理论（Producer Theory）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_41" class="md-nav__link">
+    <span class="md-ellipsis">
+      经济学中的成本
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_42" class="md-nav__link">
+    <span class="md-ellipsis">
+      成本曲线
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="成本曲线">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_43" class="md-nav__link">
+    <span class="md-ellipsis">
+      生产成本
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_44" class="md-nav__link">
+    <span class="md-ellipsis">
+      生产函数
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_45" class="md-nav__link">
+    <span class="md-ellipsis">
+      边际产量
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_46" class="md-nav__link">
+    <span class="md-ellipsis">
+      成本函数
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_47" class="md-nav__link">
+    <span class="md-ellipsis">
+      平均成本曲线
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_48" class="md-nav__link">
+    <span class="md-ellipsis">
+      长期成本和短期成本
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="长期成本和短期成本">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#atc-vs-atc" class="md-nav__link">
+    <span class="md-ellipsis">
+      长期 \(ATC\) v.s. 短期\(ATC\)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vs" class="md-nav__link">
+    <span class="md-ellipsis">
+      规模经济 v.s. 规模不经济
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#firms-in-competitive-markets" class="md-nav__link">
+    <span class="md-ellipsis">
+      竞争市场中的企业（Firms in Competitive Markets）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="竞争市场中的企业（Firms in Competitive Markets）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_49" class="md-nav__link">
+    <span class="md-ellipsis">
+      企业的目标：利益最大化
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_50" class="md-nav__link">
+    <span class="md-ellipsis">
+      平均收益曲线和边际收益曲线
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_51" class="md-nav__link">
+    <span class="md-ellipsis">
+      边际上的考虑
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_52" class="md-nav__link">
+    <span class="md-ellipsis">
+      企业的市场行为
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_53" class="md-nav__link">
+    <span class="md-ellipsis">
+      企业短期的供给曲线
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_54" class="md-nav__link">
+    <span class="md-ellipsis">
+      个体企业与市场供需
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_55" class="md-nav__link">
+    <span class="md-ellipsis">
+      向上倾斜的长期供给曲线？
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="向上倾斜的长期供给曲线？">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#increasing-input-prices" class="md-nav__link">
+    <span class="md-ellipsis">
+      递增的要素价格（increasing input prices）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#heterogeneous-firms" class="md-nav__link">
+    <span class="md-ellipsis">
+      不同的成本曲线（heterogeneous firms）
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#monopoly" class="md-nav__link">
+    <span class="md-ellipsis">
+      垄断（Monopoly）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="垄断（Monopoly）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vs_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      垄断 v.s. 完全竞争
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_56" class="md-nav__link">
+    <span class="md-ellipsis">
+      垄断市场的利润最大化
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_57" class="md-nav__link">
+    <span class="md-ellipsis">
+      福利分析
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1mr-vs-mb" class="md-nav__link">
+    <span class="md-ellipsis">
+      题外话1：MR v.s. MB
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-vs" class="md-nav__link">
+    <span class="md-ellipsis">
+      题外话2：生产者剩余 v.s. 利润
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_58" class="md-nav__link">
+    <span class="md-ellipsis">
+      政府政策与福利
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="政府政策与福利">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_59" class="md-nav__link">
+    <span class="md-ellipsis">
+      使垄断企业更有竞争性
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_60" class="md-nav__link">
+    <span class="md-ellipsis">
+      将私人企业国有化
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_61" class="md-nav__link">
+    <span class="md-ellipsis">
+      管制垄断者的行为
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_62" class="md-nav__link">
+    <span class="md-ellipsis">
+      自然垄断下的政府管制
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_63" class="md-nav__link">
+    <span class="md-ellipsis">
+      价格歧视
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="价格歧视">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#first-degree-price-discrimination-perfect-price-discrimination" class="md-nav__link">
+    <span class="md-ellipsis">
+      一级价格歧视（first degree price discrimination, perfect price discrimination）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#second-degree-price-discrimination" class="md-nav__link">
+    <span class="md-ellipsis">
+      二级价格歧视（second degree price discrimination）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="二级价格歧视（second degree price discrimination）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#screen" class="md-nav__link">
+    <span class="md-ellipsis">
+      二级价格歧视与甄别（screen）机制
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#third-degree-price-discrimination" class="md-nav__link">
+    <span class="md-ellipsis">
+      三级价格歧视（third degree price discrimination）
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#monopolistic-competition-and-the-markets-for-the-factors-of-production" class="md-nav__link">
+    <span class="md-ellipsis">
+      垄断竞争及生产要素市场（Monopolistic Competition and the Markets for the Factors of Production）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="垄断竞争及生产要素市场（Monopolistic Competition and the Markets for the Factors of Production）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_64" class="md-nav__link">
+    <span class="md-ellipsis">
+      垄断竞争
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_65" class="md-nav__link">
+    <span class="md-ellipsis">
+      企业获得经济利润的原因
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="企业获得经济利润的原因">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_66" class="md-nav__link">
+    <span class="md-ellipsis">
+      短期中的垄断竞争企业
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_67" class="md-nav__link">
+    <span class="md-ellipsis">
+      不同实现市场零利润的机制
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_68" class="md-nav__link">
+    <span class="md-ellipsis">
+      劳动力市场
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="劳动力市场">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_69" class="md-nav__link">
+    <span class="md-ellipsis">
+      劳动力市场与最终产品市场
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_70" class="md-nav__link">
+    <span class="md-ellipsis">
+      劳动的需求曲线
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_71" class="md-nav__link">
+    <span class="md-ellipsis">
+      福利分析
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#monopsony" class="md-nav__link">
+    <span class="md-ellipsis">
+      买方垄断（Monopsony）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="买方垄断（Monopsony）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_72" class="md-nav__link">
+    <span class="md-ellipsis">
+      福利分析
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#oligopoly-and-game-theory" class="md-nav__link">
+    <span class="md-ellipsis">
+      寡头与博弈论（Oligopoly and Game Theory）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="寡头与博弈论（Oligopoly and Game Theory）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prisoners-dilemma" class="md-nav__link">
+    <span class="md-ellipsis">
+      囚徒困境（Prisoner's Dilemma）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nash-equilibrium" class="md-nav__link">
+    <span class="md-ellipsis">
+      纳什均衡（Nash Equilibrium）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_73" class="md-nav__link">
+    <span class="md-ellipsis">
+      囚徒困境的福利分析
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_74" class="md-nav__link">
+    <span class="md-ellipsis">
+      囚徒困境的应用
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="囚徒困境的应用">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_75" class="md-nav__link">
+    <span class="md-ellipsis">
+      团队合作
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_76" class="md-nav__link">
+    <span class="md-ellipsis">
+      广告竞争
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#battle-of-the-sexes" class="md-nav__link">
+    <span class="md-ellipsis">
+      性别大战（Battle of the Sexes）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#matching-pennies" class="md-nav__link">
+    <span class="md-ellipsis">
+      便士匹配（Matching Pennies）
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_77" class="md-nav__link">
+    <span class="md-ellipsis">
+      纳什定理
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_78" class="md-nav__link">
+    <span class="md-ellipsis">
+      博弈论刻画的寡头
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="博弈论刻画的寡头">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#price-competitionbetrand" class="md-nav__link">
+    <span class="md-ellipsis">
+      价格竞争（price competition）——Betrand竞争
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quantity-competitioncournot" class="md-nav__link">
+    <span class="md-ellipsis">
+      数量竞争（quantity competition）——Cournot竞争
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#miscellany-and-frontiers" class="md-nav__link">
+    <span class="md-ellipsis">
+      杂及前沿（Miscellany and Frontiers）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="杂及前沿（Miscellany and Frontiers）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_79" class="md-nav__link">
+    <span class="md-ellipsis">
+      折现与净现值
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_80" class="md-nav__link">
+    <span class="md-ellipsis">
+      基尼系数和洛伦茨曲线
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="基尼系数和洛伦茨曲线">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lorenz-curve" class="md-nav__link">
+    <span class="md-ellipsis">
+      洛伦茨曲线（Lorenz curve）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gini-coefficient" class="md-nav__link">
+    <span class="md-ellipsis">
+      基尼系数（Gini coefficient）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_81" class="md-nav__link">
+    <span class="md-ellipsis">
+      基尼系数与经济不平等
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_82" class="md-nav__link">
+    <span class="md-ellipsis">
+      信息经济学
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="信息经济学">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-market-for-lemons" class="md-nav__link">
+    <span class="md-ellipsis">
+      阿克洛夫的柠檬（The Market for Lemons）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_83" class="md-nav__link">
+    <span class="md-ellipsis">
+      信息不对称与市场激励
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_84" class="md-nav__link">
+    <span class="md-ellipsis">
+      重温阿克洛夫的柠檬
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#information-asymmetry-in-insurance-market" class="md-nav__link">
+    <span class="md-ellipsis">
+      信息不对称在保险市场中的应用：重回供需（Information Asymmetry in Insurance Market）
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#principles-of-economics" class="md-nav__link">
+    <span class="md-ellipsis">
+      经济学基本原理（Principles of Economics）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="经济学基本原理（Principles of Economics）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      人们面临权衡取舍
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="人们面临权衡取舍">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#opportunity-cost" class="md-nav__link">
+    <span class="md-ellipsis">
+      机会成本（Opportunity Cost）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      取舍的标准
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      生产存在边界
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="生产存在边界">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#production-possibility-frontier" class="md-nav__link">
+    <span class="md-ellipsis">
+      生产可能性边界（Production Possibility Frontier）
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      人们会对激励做出反应
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      理性人考虑边际
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gains-from-trade" class="md-nav__link">
+    <span class="md-ellipsis">
+      双赢的贸易（Gains from Trade）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="双赢的贸易（Gains from Trade）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      贸易促进专业化？
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-market-forces-of-supply-and-demand" class="md-nav__link">
+    <span class="md-ellipsis">
+      供需的市场力量（The Market Forces of Supply and Demand）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="供需的市场力量（The Market Forces of Supply and Demand）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      需求和需求量
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      需求定律和需求曲线
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="需求定律和需求曲线">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-law-of-demand" class="md-nav__link">
+    <span class="md-ellipsis">
+      需求定律（the law of demand）
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      供给与供给量的变化
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#equilibrium-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      均衡分析（Equilibrium Analysis）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="均衡分析（Equilibrium Analysis）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      供需定理
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comparative-statics" class="md-nav__link">
+    <span class="md-ellipsis">
+      比较静态分析（Comparative Statics）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      边际的力量
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#elasticity-and-its-application" class="md-nav__link">
+    <span class="md-ellipsis">
+      弹性及其应用（Elasticity and Its Application）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="弹性及其应用（Elasticity and Its Application）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      弹性与斜率
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="弹性与斜率">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#perfectly-inelastic-demand" class="md-nav__link">
+    <span class="md-ellipsis">
+      完全无弹性的需求（perfectly inelastic demand）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#perfectly-elastic-demand" class="md-nav__link">
+    <span class="md-ellipsis">
+      完全弹性的需求（perfectly elastic demand）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unit-elastic-demand" class="md-nav__link">
+    <span class="md-ellipsis">
+      单位弹性的需求（unit elastic demand）
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      需求弹性的例子
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      需求价格弹性的决定因素
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      弹性的应用
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="弹性的应用">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      弹性与均衡分析
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      供给弹性
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="供给弹性">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#unit-elastic-supply" class="md-nav__link">
+    <span class="md-ellipsis">
+      单位弹性的供给（unit elastic supply）
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#income-elasticity-of-demand" class="md-nav__link">
+    <span class="md-ellipsis">
+      需求收入弹性（Income Elasticity of Demand）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cross-price-elasticity-of-demand" class="md-nav__link">
+    <span class="md-ellipsis">
+      需求交叉弹性（Cross-Price Elasticity of Demand）
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#markets-and-government-policies" class="md-nav__link">
+    <span class="md-ellipsis">
+      市场与政策（Markets and Government Policies）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="市场与政策（Markets and Government Policies）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#price-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      价格控制（Price Control）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="价格控制（Price Control）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      价格上限
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      票证的历史沿革
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_20" class="md-nav__link">
+    <span class="md-ellipsis">
+      价格下限
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quantity-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      数量管制（Quantity Control）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tax-and-subsidy" class="md-nav__link">
+    <span class="md-ellipsis">
+      税收与补贴（Tax and Subsidy）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="税收与补贴（Tax and Subsidy）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_21" class="md-nav__link">
+    <span class="md-ellipsis">
+      税收的影响
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_22" class="md-nav__link">
+    <span class="md-ellipsis">
+      税收负担
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_23" class="md-nav__link">
+    <span class="md-ellipsis">
+      补贴
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#market-efficiency" class="md-nav__link">
+    <span class="md-ellipsis">
+      市场效率（Market Efficiency）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="市场效率（Market Efficiency）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#consumer-surplus" class="md-nav__link">
+    <span class="md-ellipsis">
+      消费者剩余（Consumer Surplus）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="消费者剩余（Consumer Surplus）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#willingness-to-pay-wtp" class="md-nav__link">
+    <span class="md-ellipsis">
+      支付意愿（Willingness to pay, WTP）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_24" class="md-nav__link">
+    <span class="md-ellipsis">
+      引入市场和价格
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#producer-surplus" class="md-nav__link">
+    <span class="md-ellipsis">
+      生产者剩余（Producer Surplus）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="生产者剩余（Producer Surplus）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#willingness-to-sell" class="md-nav__link">
+    <span class="md-ellipsis">
+      出售意愿（Willingness to sell）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_25" class="md-nav__link">
+    <span class="md-ellipsis">
+      引入市场和价格
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#welfare-analysis-of-equilibrium" class="md-nav__link">
+    <span class="md-ellipsis">
+      对均衡的福利分析（Welfare Analysis of Equilibrium）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#welfare-analysis-of-policies" class="md-nav__link">
+    <span class="md-ellipsis">
+      对政策的福利评价（Welfare Analysis of Policies）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="对政策的福利评价（Welfare Analysis of Policies）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_26" class="md-nav__link">
+    <span class="md-ellipsis">
+      价格上限
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_27" class="md-nav__link">
+    <span class="md-ellipsis">
+      税收
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_28" class="md-nav__link">
+    <span class="md-ellipsis">
+      无谓损失的决定因素
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#externality-and-public-good" class="md-nav__link">
+    <span class="md-ellipsis">
+      外部性及公共品（Externality and Public Good）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="外部性及公共品（Externality and Public Good）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#externality" class="md-nav__link">
+    <span class="md-ellipsis">
+      外部性（externality）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="外部性（externality）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_29" class="md-nav__link">
+    <span class="md-ellipsis">
+      负外部性的影响
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_30" class="md-nav__link">
+    <span class="md-ellipsis">
+      矫正外部性
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_31" class="md-nav__link">
+    <span class="md-ellipsis">
+      税收
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_32" class="md-nav__link">
+    <span class="md-ellipsis">
+      许可证
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="许可证">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tradable-permits" class="md-nav__link">
+    <span class="md-ellipsis">
+      可交易的许可证（tradable permits）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#permits" class="md-nav__link">
+    <span class="md-ellipsis">
+      不可交易的许可证（permits）
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_33" class="md-nav__link">
+    <span class="md-ellipsis">
+      无谓损失产生的原因
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#coase-theorem" class="md-nav__link">
+    <span class="md-ellipsis">
+      科斯定理（Coase Theorem）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_34" class="md-nav__link">
+    <span class="md-ellipsis">
+      正外部性的影响
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_35" class="md-nav__link">
+    <span class="md-ellipsis">
+      公共品和共有资源
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="公共品和共有资源">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_36" class="md-nav__link">
+    <span class="md-ellipsis">
+      解决市场失灵：政府的介入
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_37" class="md-nav__link">
+    <span class="md-ellipsis">
+      共有地悲剧
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#consumer-theory" class="md-nav__link">
+    <span class="md-ellipsis">
+      消费者理论（Consumer Theory）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="消费者理论（Consumer Theory）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#budget-constraint" class="md-nav__link">
+    <span class="md-ellipsis">
+      预算约束（Budget Constraint）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_38" class="md-nav__link">
+    <span class="md-ellipsis">
+      消费者偏好的刻画
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_39" class="md-nav__link">
+    <span class="md-ellipsis">
+      消费者行为的预测
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_40" class="md-nav__link">
+    <span class="md-ellipsis">
+      比较静态分析
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      应用1：劳动供给曲线
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      应用2：消费者的储蓄决策
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#producer-theory" class="md-nav__link">
+    <span class="md-ellipsis">
+      厂商理论（Producer Theory）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="厂商理论（Producer Theory）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_41" class="md-nav__link">
+    <span class="md-ellipsis">
+      经济学中的成本
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_42" class="md-nav__link">
+    <span class="md-ellipsis">
+      成本曲线
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="成本曲线">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_43" class="md-nav__link">
+    <span class="md-ellipsis">
+      生产成本
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_44" class="md-nav__link">
+    <span class="md-ellipsis">
+      生产函数
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_45" class="md-nav__link">
+    <span class="md-ellipsis">
+      边际产量
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_46" class="md-nav__link">
+    <span class="md-ellipsis">
+      成本函数
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_47" class="md-nav__link">
+    <span class="md-ellipsis">
+      平均成本曲线
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_48" class="md-nav__link">
+    <span class="md-ellipsis">
+      长期成本和短期成本
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="长期成本和短期成本">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#atc-vs-atc" class="md-nav__link">
+    <span class="md-ellipsis">
+      长期 \(ATC\) v.s. 短期\(ATC\)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vs" class="md-nav__link">
+    <span class="md-ellipsis">
+      规模经济 v.s. 规模不经济
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#firms-in-competitive-markets" class="md-nav__link">
+    <span class="md-ellipsis">
+      竞争市场中的企业（Firms in Competitive Markets）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="竞争市场中的企业（Firms in Competitive Markets）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_49" class="md-nav__link">
+    <span class="md-ellipsis">
+      企业的目标：利益最大化
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_50" class="md-nav__link">
+    <span class="md-ellipsis">
+      平均收益曲线和边际收益曲线
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_51" class="md-nav__link">
+    <span class="md-ellipsis">
+      边际上的考虑
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_52" class="md-nav__link">
+    <span class="md-ellipsis">
+      企业的市场行为
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_53" class="md-nav__link">
+    <span class="md-ellipsis">
+      企业短期的供给曲线
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_54" class="md-nav__link">
+    <span class="md-ellipsis">
+      个体企业与市场供需
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_55" class="md-nav__link">
+    <span class="md-ellipsis">
+      向上倾斜的长期供给曲线？
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="向上倾斜的长期供给曲线？">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#increasing-input-prices" class="md-nav__link">
+    <span class="md-ellipsis">
+      递增的要素价格（increasing input prices）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#heterogeneous-firms" class="md-nav__link">
+    <span class="md-ellipsis">
+      不同的成本曲线（heterogeneous firms）
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#monopoly" class="md-nav__link">
+    <span class="md-ellipsis">
+      垄断（Monopoly）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="垄断（Monopoly）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vs_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      垄断 v.s. 完全竞争
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_56" class="md-nav__link">
+    <span class="md-ellipsis">
+      垄断市场的利润最大化
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_57" class="md-nav__link">
+    <span class="md-ellipsis">
+      福利分析
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1mr-vs-mb" class="md-nav__link">
+    <span class="md-ellipsis">
+      题外话1：MR v.s. MB
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-vs" class="md-nav__link">
+    <span class="md-ellipsis">
+      题外话2：生产者剩余 v.s. 利润
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_58" class="md-nav__link">
+    <span class="md-ellipsis">
+      政府政策与福利
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="政府政策与福利">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_59" class="md-nav__link">
+    <span class="md-ellipsis">
+      使垄断企业更有竞争性
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_60" class="md-nav__link">
+    <span class="md-ellipsis">
+      将私人企业国有化
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_61" class="md-nav__link">
+    <span class="md-ellipsis">
+      管制垄断者的行为
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_62" class="md-nav__link">
+    <span class="md-ellipsis">
+      自然垄断下的政府管制
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_63" class="md-nav__link">
+    <span class="md-ellipsis">
+      价格歧视
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="价格歧视">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#first-degree-price-discrimination-perfect-price-discrimination" class="md-nav__link">
+    <span class="md-ellipsis">
+      一级价格歧视（first degree price discrimination, perfect price discrimination）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#second-degree-price-discrimination" class="md-nav__link">
+    <span class="md-ellipsis">
+      二级价格歧视（second degree price discrimination）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="二级价格歧视（second degree price discrimination）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#screen" class="md-nav__link">
+    <span class="md-ellipsis">
+      二级价格歧视与甄别（screen）机制
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#third-degree-price-discrimination" class="md-nav__link">
+    <span class="md-ellipsis">
+      三级价格歧视（third degree price discrimination）
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#monopolistic-competition-and-the-markets-for-the-factors-of-production" class="md-nav__link">
+    <span class="md-ellipsis">
+      垄断竞争及生产要素市场（Monopolistic Competition and the Markets for the Factors of Production）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="垄断竞争及生产要素市场（Monopolistic Competition and the Markets for the Factors of Production）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_64" class="md-nav__link">
+    <span class="md-ellipsis">
+      垄断竞争
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_65" class="md-nav__link">
+    <span class="md-ellipsis">
+      企业获得经济利润的原因
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="企业获得经济利润的原因">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_66" class="md-nav__link">
+    <span class="md-ellipsis">
+      短期中的垄断竞争企业
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_67" class="md-nav__link">
+    <span class="md-ellipsis">
+      不同实现市场零利润的机制
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_68" class="md-nav__link">
+    <span class="md-ellipsis">
+      劳动力市场
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="劳动力市场">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_69" class="md-nav__link">
+    <span class="md-ellipsis">
+      劳动力市场与最终产品市场
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_70" class="md-nav__link">
+    <span class="md-ellipsis">
+      劳动的需求曲线
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_71" class="md-nav__link">
+    <span class="md-ellipsis">
+      福利分析
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#monopsony" class="md-nav__link">
+    <span class="md-ellipsis">
+      买方垄断（Monopsony）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="买方垄断（Monopsony）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_72" class="md-nav__link">
+    <span class="md-ellipsis">
+      福利分析
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#oligopoly-and-game-theory" class="md-nav__link">
+    <span class="md-ellipsis">
+      寡头与博弈论（Oligopoly and Game Theory）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="寡头与博弈论（Oligopoly and Game Theory）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prisoners-dilemma" class="md-nav__link">
+    <span class="md-ellipsis">
+      囚徒困境（Prisoner's Dilemma）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nash-equilibrium" class="md-nav__link">
+    <span class="md-ellipsis">
+      纳什均衡（Nash Equilibrium）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_73" class="md-nav__link">
+    <span class="md-ellipsis">
+      囚徒困境的福利分析
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_74" class="md-nav__link">
+    <span class="md-ellipsis">
+      囚徒困境的应用
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="囚徒困境的应用">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_75" class="md-nav__link">
+    <span class="md-ellipsis">
+      团队合作
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_76" class="md-nav__link">
+    <span class="md-ellipsis">
+      广告竞争
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#battle-of-the-sexes" class="md-nav__link">
+    <span class="md-ellipsis">
+      性别大战（Battle of the Sexes）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#matching-pennies" class="md-nav__link">
+    <span class="md-ellipsis">
+      便士匹配（Matching Pennies）
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_77" class="md-nav__link">
+    <span class="md-ellipsis">
+      纳什定理
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_78" class="md-nav__link">
+    <span class="md-ellipsis">
+      博弈论刻画的寡头
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="博弈论刻画的寡头">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#price-competitionbetrand" class="md-nav__link">
+    <span class="md-ellipsis">
+      价格竞争（price competition）——Betrand竞争
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quantity-competitioncournot" class="md-nav__link">
+    <span class="md-ellipsis">
+      数量竞争（quantity competition）——Cournot竞争
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#miscellany-and-frontiers" class="md-nav__link">
+    <span class="md-ellipsis">
+      杂及前沿（Miscellany and Frontiers）
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="杂及前沿（Miscellany and Frontiers）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_79" class="md-nav__link">
+    <span class="md-ellipsis">
+      折现与净现值
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_80" class="md-nav__link">
+    <span class="md-ellipsis">
+      基尼系数和洛伦茨曲线
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="基尼系数和洛伦茨曲线">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lorenz-curve" class="md-nav__link">
+    <span class="md-ellipsis">
+      洛伦茨曲线（Lorenz curve）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gini-coefficient" class="md-nav__link">
+    <span class="md-ellipsis">
+      基尼系数（Gini coefficient）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_81" class="md-nav__link">
+    <span class="md-ellipsis">
+      基尼系数与经济不平等
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_82" class="md-nav__link">
+    <span class="md-ellipsis">
+      信息经济学
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="信息经济学">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-market-for-lemons" class="md-nav__link">
+    <span class="md-ellipsis">
+      阿克洛夫的柠檬（The Market for Lemons）
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_83" class="md-nav__link">
+    <span class="md-ellipsis">
+      信息不对称与市场激励
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_84" class="md-nav__link">
+    <span class="md-ellipsis">
+      重温阿克洛夫的柠檬
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#information-asymmetry-in-insurance-market" class="md-nav__link">
+    <span class="md-ellipsis">
+      信息不对称在保险市场中的应用：重回供需（Information Asymmetry in Insurance Market）
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="i">经济学原理（I）课程笔记<a class="headerlink" href="#i" title="Permanent link">&para;</a></h1>
+<h2 id="principles-of-economics">经济学基本原理（Principles of Economics）<a class="headerlink" href="#principles-of-economics" title="Permanent link">&para;</a></h2>
+<ul>
+<li>社会：资源是稀缺的 &gt;&gt; 人们面临权衡取舍（tradeoffs），生产存在边界（production possibility frontier）</li>
+<li>互动：人们会对激励（incentives）作出反应</li>
+<li>理性人：理性人考虑边际（margin）</li>
+</ul>
+<h3 id="_1">人们面临权衡取舍<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h3>
+<h4 id="opportunity-cost">机会成本（Opportunity Cost）<a class="headerlink" href="#opportunity-cost" title="Permanent link">&para;</a></h4>
+<ul>
+<li>显性成本：货币</li>
+<li>隐性成本：时间</li>
+</ul>
+<p><strong>机会成本 = 货币 + 时间</strong> &gt;&gt; 不同选项的互斥性 &gt;&gt; 时间、资源的有限性带来的权衡取舍</p>
+<h4 id="_2">取舍的标准<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h4>
+<p>方法1：收益大于成本 x</p>
+<p>方法2：收益大于机会成本 √</p>
+<ul>
+<li>
+<p>最优化（optimization）</p>
+</li>
+<li>
+<p>决策方式：集中考虑某一行为</p>
+</li>
+<li>
+<p>时间成本，排他性</p>
+</li>
+</ul>
+<h3 id="_3">生产存在边界<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
+<h4 id="production-possibility-frontier">生产可能性边界（Production Possibility Frontier）<a class="headerlink" href="#production-possibility-frontier" title="Permanent link">&para;</a></h4>
+<p>边界的斜率是负的 &gt;&gt; 机会成本</p>
+<p>一方的劳动生产率<u>变高</u> &gt;&gt; 生产另一方所需的机会成本会<u>变大</u></p>
+<h3 id="_4">人们会对激励做出反应<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<p>星巴克的涨价？？麦当劳和唐恩读乐低价咖啡的流入帮助星巴克筛选出了价格不敏感的消费者（产品的异质性）</p>
+<p>Opt-in &amp; Opt-out: “默认选项”与产品设计</p>
+<h3 id="_5">理性人考虑边际<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<p>理性人追求自身利益的最大化（payoff maximization）&gt;&gt; 边际（margin）</p>
+<p>条件？？！<strong>成本和收益的变动不能太剧烈。边际收益递减且边际成本递增。</strong></p>
+<p>最终边际收益<span class="arithmatex">\(\ge\)</span>边际的成本（离散） 或者 最终边际收益=边际成本（连续）</p>
+<h2 id="gains-from-trade">双赢的贸易（Gains from Trade）<a class="headerlink" href="#gains-from-trade" title="Permanent link">&para;</a></h2>
+<p>在全球经济中满足自身需求？</p>
+<ul>
+<li>自给自足（autarky）</li>
+<li>与他人贸易（trade）</li>
+</ul>
+<p>为何产生贸易？？贸易的出现使得生产和消费不再对等。</p>
+<p><strong>机会成本的<u>差别</u>（比较优势）为人们从贸易中收益创造了条件。</strong></p>
+<p>Joint PPF 一定是凹（concave）的 &gt;&gt; 体现有效的生产 &gt;&gt; 此结论<strong>不依赖</strong>消费者的偏好</p>
+<h3 id="_6">贸易促进专业化？<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
+<p>人们会对激励做出反应！！</p>
+<p>消费可能性边界（Consumption Possibility Frontier）一定与PPF相切</p>
+<p>价格使得每个人只要做出最有利于自己的反应，就能达到社会联合PPF</p>
+<p><em>反全球化 与 模型的矛盾？</em></p>
+<ul>
+<li><em>模型忽略了产业结构</em></li>
+<li><em>战争的发生</em></li>
+</ul>
+<h2 id="the-market-forces-of-supply-and-demand">供需的市场力量（The Market Forces of Supply and Demand）<a class="headerlink" href="#the-market-forces-of-supply-and-demand" title="Permanent link">&para;</a></h2>
+<h3 id="_7">需求和需求量<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
+<p>需求量（quantity demanded）&gt;&gt; 数字</p>
+<p>需求（demand）&gt;&gt; 函数：以价格为自变量，需求量为因变量</p>
+<h3 id="_8">需求定律和需求曲线<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h3>
+<h4 id="the-law-of-demand">需求定律（the law of demand）<a class="headerlink" href="#the-law-of-demand" title="Permanent link">&para;</a></h4>
+<p><strong>其他条件不变</strong>，价格上升导致需求量下降 &gt;&gt; 房子？钻戒？价格中蕴含着商品的某种信息，需求定律被打破</p>
+<p>市场需求是个人需求在<strong>每一价格</strong>下的水平加总 &lt;&lt; 每个人看到的市场价格一样（即没有打折的现象） &lt;&lt; 由市场的竞争决定</p>
+<p>需求量的变化 &gt;&gt; 只与价格有关 &gt;&gt; Movement <strong>along</strong> the demand curve</p>
+<p>需求的变化 &gt;&gt; 只与价格之外的因素有关 &gt;&gt; A <strong>shift</strong> in the demand curve &gt;&gt; 只能<strong>向左或者向右</strong>移动
+$$
+{\rm Demand\ curve:}\ P=D(Q,X)
+$$
+若<span class="arithmatex">\(X\)</span>为收入：正常品（normal good）和低档品（inferior good）&gt;&gt; 这是个局部定义（靠考虑两条需求曲线相交的情形）
+$$
+P=D(Q)+\beta \times I
+$$
+<span class="arithmatex">\(\beta &gt;0\)</span> &gt;&gt; 正常品，<span class="arithmatex">\(\beta &lt;0\)</span> &gt;&gt; 低档品。若不能定义自变量可分离的函数，可以引入偏导</p>
+<p>若<span class="arithmatex">\(X\)</span>为相关产品的<strong>价格</strong>：替代品（substitutes）和互补品（complements）
+$$
+P=D(Q)+\gamma\times\widetilde{P}
+$$
+<span class="arithmatex">\(\gamma&gt;0\)</span> &gt;&gt; 替代品，<span class="arithmatex">\(\gamma&lt;0\)</span> &gt;&gt; 互补品</p>
+<p><em>注意替代品和互补品的定义。</em></p>
+<h3 id="_9">供给与供给量的变化<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h3>
+<h3 id="equilibrium-analysis">均衡分析（Equilibrium Analysis）<a class="headerlink" href="#equilibrium-analysis" title="Permanent link">&para;</a></h3>
+<p>Equilibrium price &amp; Equilibrium quantity</p>
+<h4 id="_10">供需定理<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h4>
+<p>前提</p>
+<ul>
+<li>市场上存在足够多的竞争（不论是买家还是卖家），无人拥有市场势力（market power）</li>
+<li>买卖双方为价格接受者（price taker）</li>
+<li>产品完全同质（homogeneous good）</li>
+</ul>
+<p>模型没有回答：谁来降价或者提价？（只有价格变动的动力？）&gt;&gt; 来源于对于问题的过度抽象</p>
+<h3 id="comparative-statics">比较静态分析（Comparative Statics）<a class="headerlink" href="#comparative-statics" title="Permanent link">&para;</a></h3>
+<p>沿着供给曲线运动还是沿着需求曲线运动？</p>
+<p>eg. 网络购物的盛行如何影响冰激凌市场？</p>
+<p>sol. 需求曲线左移，厂家没有及时反应（价格具有黏性），导致滞销，厂商降价，达到新均衡</p>
+<p>比较静态分析告诉我们：价格是市场上大量的卖家和买家竞争互动的结果，我们研究的对象是内生变量</p>
+<p><em>始终注意我们是通过外生变量研究内生变量（比较静态分析），内生变量的变化不会影响另一个内生变量（否则导致逻辑循环）</em></p>
+<p>eg. 休渔期+需求不振 对市场价格的影响</p>
+<h3 id="_11">边际的力量<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h3>
+<p>需求曲线（D）=边际收益曲线（MB）</p>
+<p>需求曲线：给定价格，得到买家总数量 &gt;&gt; 需要市场和价格</p>
+<p>边际收益曲线：给定边际买家，得到边际收益（支付意愿）&gt;&gt; 不需要市场和价格</p>
+<p>供给曲线（S）=边际成本曲线（MC）</p>
+<h2 id="elasticity-and-its-application">弹性及其应用（Elasticity and Its Application）<a class="headerlink" href="#elasticity-and-its-application" title="Permanent link">&para;</a></h2>
+<p>降价带来的收益可正可负 &gt;&gt; 消费者对于价格的敏感程度？？</p>
+<p>对价格敏感，数量的增加大于价格下降的程度 &gt;&gt; 需求<strong>富有弹性（elastic）</strong></p>
+<p>反之，则称需求是<strong>缺乏弹性的（inelastic）</strong></p>
+<p><em>一条直的需求曲线已经有足够丰富的内涵，以至于能覆盖大多数的经济学的情况。因为日常生活中，我们往往对价格高的商品更加敏感，对价格低的商品更加不敏感。</em></p>
+<p>How to measure consumers' price sensitivity??</p>
+<p>我们无法抛开价格谈敏感度 &gt;&gt; 局部性质 &gt;&gt; 边际的引入</p>
+<p>需求价格弹性<span class="arithmatex">\(E_D\)</span>=|需求量变动的百分比/价格变动的百分比|
+$$
+E_D=\left|\frac{{\rm the\ percent\ change\ in\ quantity\ demanded}}{\rm the\ percent\ change\ in\ price}\right|
+$$</p>
+<p>两点间计算价格弹性：中点法</p>
+<h3 id="_12">弹性与斜率<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h3>
+<p>弹性和斜率相关，但是不完全等价</p>
+<p><strong>给定一点</strong>，斜率绝对值越小，弹性越大（弹性的局部性）</p>
+<h4 id="perfectly-inelastic-demand">完全无弹性的需求（perfectly inelastic demand）<a class="headerlink" href="#perfectly-inelastic-demand" title="Permanent link">&para;</a></h4>
+<h4 id="perfectly-elastic-demand">完全弹性的需求（perfectly elastic demand）<a class="headerlink" href="#perfectly-elastic-demand" title="Permanent link">&para;</a></h4>
+<p>在临界价格上，消费者无比敏感</p>
+<p>限定了厂商的市场势力（定价）</p>
+<p>弹性虽然是消费者的信息，但是也限制着厂商的市场势力</p>
+<h4 id="unit-elastic-demand">单位弹性的需求（unit elastic demand）<a class="headerlink" href="#unit-elastic-demand" title="Permanent link">&para;</a></h4>
+<p>弹性处处为1 &gt;&gt; 任意价格上的收益相等 &gt;&gt; <span class="arithmatex">\(P\times Q=C\)</span></p>
+<h3 id="_13">需求弹性的例子<a class="headerlink" href="#_13" title="Permanent link">&para;</a></h3>
+<p>“老板，给我来30块钱牛肉。” &gt;&gt; 单位弹性</p>
+<p>“一斤40块要不要，不要我走了。” &gt;&gt; 完全弹性</p>
+<p>“老板，来一斤牛肉” &gt;&gt; 完全无弹性</p>
+<p>老板喜欢价格弹性小的消费者，当<span class="arithmatex">\(E_D\to \infty\)</span>时，个体厂商完全失去了定价能力 &gt;&gt; 个体企业成为<strong>价格接受者（price taker）</strong></p>
+<p>当个体面临的需求曲线向右下倾斜（<span class="arithmatex">\(E_D&lt;\infty\)</span>）时，企业有一定的定价能力 &gt;&gt; 个体企业成为<strong>价格制定者（price maker）</strong></p>
+<p>市场的总需求与个体卖家面临的需求 关系？？</p>
+<h3 id="_14">需求价格弹性的决定因素<a class="headerlink" href="#_14" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p>替代品越多，弹性越大（Availability of close substitutes）</p>
+</li>
+<li>
+<p>奢侈品弹性大于必需品（Necessities versus luxuries）</p>
+</li>
+<li>
+<p>长期需求品弹性大于短期需求品（Time horizon）</p>
+</li>
+<li>
+<p>市场界定小的商品的弹性大于市场界定大的商品（Definition of the market）</p>
+</li>
+</ul>
+<h3 id="_15">弹性的应用<a class="headerlink" href="#_15" title="Permanent link">&para;</a></h3>
+<h4 id="_16">弹性与均衡分析<a class="headerlink" href="#_16" title="Permanent link">&para;</a></h4>
+<p>技术进步带来的影响：农业，粮食弹性的缺乏带来的后果</p>
+<p>高速公路和隧道是单向收费还是双向收费</p>
+<h3 id="_17">供给弹性<a class="headerlink" href="#_17" title="Permanent link">&para;</a></h3>
+<p>供给价格弹性<span class="arithmatex">\(E_S\)</span>=供给量变动的百分比/价格变动的百分比
+$$
+E_S=\frac{{\rm the\ percent\ change\ in\ quantity\ supplied}}{\rm the\ percent\ change\ in\ price}
+$$</p>
+<h4 id="unit-elastic-supply">单位弹性的供给（unit elastic supply）<a class="headerlink" href="#unit-elastic-supply" title="Permanent link">&para;</a></h4>
+<p>弹性处处为1 &gt;&gt; 价格上升百分比=供给上升的百分比 &gt;&gt; 所有过原点的线性供给曲线 <span class="arithmatex">\(P/Q=C\)</span></p>
+<p>不过原点的曲线？？</p>
+<h3 id="income-elasticity-of-demand">需求收入弹性（Income Elasticity of Demand）<a class="headerlink" href="#income-elasticity-of-demand" title="Permanent link">&para;</a></h3>
+<p>物品的需求量对消费者收入变化的反应（给定价格不变）
+$$
+\eta=\frac{{\rm \%\ change\ in\ quantity\ demanded}}{\rm \%\ change\ in\ income}
+$$
+<strong>正负号很重要！</strong></p>
+<p>inferior good, normal good, necessity good, luxury good</p>
+<h3 id="cross-price-elasticity-of-demand">需求交叉弹性（Cross-Price Elasticity of Demand）<a class="headerlink" href="#cross-price-elasticity-of-demand" title="Permanent link">&para;</a></h3>
+<div class="arithmatex">\[
+E_{12}=\frac{{\rm \%\ change\ in\ quantity\ demanded\ of\ 2}}{\rm \%\ change\ in\ price\ of\ 1}.
+\]</div>
+<p>总之，A-B弹性就是A的变化率除以B的变化率</p>
+<p>弹性也可以写成
+$$
+E_D=\left|\frac{\Delta Q/Q}{\Delta P/P}\right|=\left|\frac{\Delta\ln Q}{\Delta\ln P}\right|
+$$
+于是，弹性为定值的曲线就是<span class="arithmatex">\(\ln Q=k\ln P+b\)</span>，或者<span class="arithmatex">\(Q=c\cdot P^k\)</span>。</p>
+<h2 id="markets-and-government-policies">市场与政策（Markets and Government Policies）<a class="headerlink" href="#markets-and-government-policies" title="Permanent link">&para;</a></h2>
+<h3 id="price-control">价格控制（Price Control）<a class="headerlink" href="#price-control" title="Permanent link">&para;</a></h3>
+<h4 id="_18">价格上限<a class="headerlink" href="#_18" title="Permanent link">&para;</a></h4>
+<p>(<strong>A Binding Price Ceiling</strong>, a price ceiling that is lower than the equilibrium price/ <strong>A Non-binding Price Ceiling</strong>, a price ceiling that is higher than the equilibrium price）：只有价格高于平衡价格时，价格上限才会发生作用</p>
+<p>过度的需求导致有一部分人拿不到资源 &gt;&gt; 谁拿到了这个资源？？ &gt;&gt; 配给（rationing）</p>
+<ul>
+<li>排队（按照时间的机会成本来配给）</li>
+<li>走后门（礼金的成本）</li>
+<li>卖者对买者的歧视（有效率？降低卖者的成本？）</li>
+<li>抽签（公平和效率的折中）</li>
+<li>票证（带来新的无效率？车牌就是一个例子）</li>
+</ul>
+<blockquote>
+<h4 id="_19">票证的历史沿革<a class="headerlink" href="#_19" title="Permanent link">&para;</a></h4>
+<p>1953年我国宣布实行第一个“五年计划”，开始实行计划经济</p>
+<p>计划经济在具体实践中的一个显著特点就是短缺经济（吃大锅饭，没有动力）</p>
+<p>为了满足人民生活得基本需求，国家印发各种商品票证</p>
+<p>通过票证把生活必需品分配到单位或者城镇居民手中（导致无效率）</p>
+<p>1955年，票证发行</p>
+<p>票证的种类超过了160种</p>
+<p>为了改变由于没有激励带来的资源短缺而引入的新政策又会导致新的无效率？</p>
+</blockquote>
+<p>租房控制：短期供给和需求都缺乏弹性；长期供给和需求都更具有弹性，更多人买房 &gt;&gt; 租房，excess demand <span class="arithmatex">\(\uparrow\)</span>，更严重的短缺，导致无效率</p>
+<h4 id="_20">价格下限<a class="headerlink" href="#_20" title="Permanent link">&para;</a></h4>
+<p>(A Binding Price Floor）</p>
+<p>硬性的价格下限？软性的价格下限？ &gt;&gt; 导致实际的商品数量不同</p>
+<p><strong>劳动市场与最低工资（The Minimum Wage）</strong></p>
+<p>要素市场：供给和需求方与一般的市场发生了对调</p>
+<p>理论预测：最低工资使得<span class="arithmatex">\(L^S({\rm labor\ supplied}）-L^D({\rm labor\ demanded}）\)</span>这么多人失业了</p>
+<p>实证结果：提高最低工资促进就业（David Card）！&gt;&gt; 模型背后的假设存在问题？？如何将理论和实验联系起来</p>
+<h3 id="quantity-control">数量管制（Quantity Control）<a class="headerlink" href="#quantity-control" title="Permanent link">&para;</a></h3>
+<p>汽车牌照：拍卖？排队？抽签？</p>
+<p>数量上限or下限：争对不同的市场进行不同的考量（比如不能够对计划生育设置下限），有的时候这是一个离散的问题</p>
+<h3 id="tax-and-subsidy">税收与补贴（Tax and Subsidy）<a class="headerlink" href="#tax-and-subsidy" title="Permanent link">&para;</a></h3>
+<h4 id="_21">税收的影响<a class="headerlink" href="#_21" title="Permanent link">&para;</a></h4>
+<p>对卖者征税：消费者实际支付的价格<span class="arithmatex">\(P^d\)</span>上升，生产者实际收取的价格<span class="arithmatex">\(P^s\)</span>下降</p>
+<p>这个税收不能是一次性的，而是从量税 &gt;&gt; 对边际产生影响，从而影响生产者和消费者的行为选择</p>
+<p>在税收的条件下，消费者实际支付和厂商实际收取不一致，市场价格的概念变得没有意义</p>
+<p>当一个商品被征税时，市场的数量减少（当两条曲线都有弹性的时候）</p>
+<p>对卖者征税和对买者征税完全等价</p>
+<p>消费者、生产者的曲线（行为）本质上和税收没有任何关系！</p>
+<p>不管政府对哪一方征税<span class="arithmatex">\(t\)</span>，都会得到<span class="arithmatex">\(P^d-P^s=t\)</span> &gt;&gt; 相同的数学表达式</p>
+<p>税收不移动需求、供给曲线 &gt;&gt; 若曲线移动了，那么消费者的<strong>福利分析</strong>就会发生变化！ &gt;&gt; 我们在图上画的<span class="arithmatex">\(D'\)</span>、<span class="arithmatex">\(S'\)</span>都只能是<strong>辅助</strong>曲线</p>
+<p>税收的本质就是人为形成价差 &gt;&gt; 打入楔子</p>
+<p>从价税和从量税可以是等价的</p>
+<h4 id="_22">税收负担<a class="headerlink" href="#_22" title="Permanent link">&para;</a></h4>
+<p>税收在买卖双方的划分</p>
+<p>缺乏弹性的需求？富有弹性的需求？&gt;&gt; 比较静态分析（弹性是个点概念，在原来的均衡点旋转需求曲线）</p>
+<p>税收更多的落在市场上更加<strong>缺乏弹性</strong>的地方（即使政府可以决定税收在供需双方的负担）</p>
+<h4 id="_23">补贴<a class="headerlink" href="#_23" title="Permanent link">&para;</a></h4>
+<p>中世纪的灾荒时期，贵族从米商手里购买大米，再以一半的价格转卖给穷人</p>
+<p>富人能够帮助穷人吗？</p>
+<p>发生了价差，本质上就是补贴！</p>
+<p>灾荒时期，粮食的供给曲线是及其缺乏弹性的</p>
+<p>实际上，穷人只能受到一点点补贴的福利，更多的补贴实际上是流入了米商的手中（这个结论的前提是供给缺乏弹性）</p>
+<p>以上都是<strong>人们会对激励作出反应</strong>的鲜明例子</p>
+<h2 id="market-efficiency">市场效率（Market Efficiency）<a class="headerlink" href="#market-efficiency" title="Permanent link">&para;</a></h2>
+<h3 id="consumer-surplus">消费者剩余（Consumer Surplus）<a class="headerlink" href="#consumer-surplus" title="Permanent link">&para;</a></h3>
+<h4 id="willingness-to-pay-wtp">支付意愿（Willingness to pay, WTP）<a class="headerlink" href="#willingness-to-pay-wtp" title="Permanent link">&para;</a></h4>
+<p>消费者对于物品或者服务的评价</p>
+<p>需求曲线 &gt;&gt; 边际买家的支付意愿 &gt;&gt; 边际收益曲线（marginal benefit）：若以这种方式解读，则此时纵轴不是价格，而是边际收益，横轴上不是总量而是增量</p>
+<p>这条边际收益曲线不依赖于市场的存在，但是一旦市场存在，则需求曲线等于边际收益曲线（yes?）</p>
+<p>一种市场的分配机制会扭曲人们对于自己支付意愿的展现（拍卖？信息的摩擦带来的无效率？） &gt;&gt; 一种让人们可以展现出自己真实支付意愿的分配方式：二价拍卖（second-price auction）</p>
+<h4 id="_24">引入市场和价格<a class="headerlink" href="#_24" title="Permanent link">&para;</a></h4>
+<p>消费者剩余：消费者从一件物品中得到的自己感觉到的收益</p>
+<p><strong>需求曲线以下和价格线以上的面积</strong> &gt;&gt; 消费者剩余 &gt;&gt; 这个结论不依赖于完全竞争的市场，如果每个消费者面临的价格不一样，上面这个结论依然成立</p>
+<p>变动价格 &gt;&gt; 价格下降让消费者变好有两个维度 &gt;&gt; extensive margin and intensive margin</p>
+<h3 id="producer-surplus">生产者剩余（Producer Surplus）<a class="headerlink" href="#producer-surplus" title="Permanent link">&para;</a></h3>
+<h4 id="willingness-to-sell">出售意愿（Willingness to sell）<a class="headerlink" href="#willingness-to-sell" title="Permanent link">&para;</a></h4>
+<p>也是成本（机会成本）</p>
+<p>边际成本曲线（marginal cost）&gt;&gt; 同样地，这条曲线不依赖于市场</p>
+<h4 id="_25">引入市场和价格<a class="headerlink" href="#_25" title="Permanent link">&para;</a></h4>
+<p>生产者剩余：经济中卖者得到的收益 &gt;&gt; 不等于利润（?），相差一个生产者进入市场的固定投资（不变成本）</p>
+<p>变动价格 &gt;&gt; 同理</p>
+<h3 id="welfare-analysis-of-equilibrium">对均衡的福利分析（Welfare Analysis of Equilibrium）<a class="headerlink" href="#welfare-analysis-of-equilibrium" title="Permanent link">&para;</a></h3>
+<p>Total Surplus = Consumer Surplus + Producer Surplus = Total Willingness to Pay - Total Willingness to Sell</p>
+<p>若有一个仁慈的社会计划者？他应该考虑：有效率的数量？给定数量，让哪些卖者生产，让哪些买者消费？（他不关心交易发生在哪个消费者和生产者之间）</p>
+<p><strong>市场均衡导致社会总剩余的最大化。(Equilibrium in the market results in maximum total surplus.）</strong></p>
+<p>在完全竞争的自由市场中，价格一旦形成，所有人只需要根据自己的支付意愿（成本）做出符合自己利益的决策，社会资源的分配就可以达到最优。</p>
+<p>配置效率（Allocative Efficiency）</p>
+<p>帕累托效率（Pareto Efficiency）&gt;&gt; 考虑了公平，不仅考虑整体，也考虑其中的每一个个体 &gt;&gt; 只要社会计划者在计划的时候面临权衡取舍，那么此时他应该就站在帕累托有效的边界上</p>
+<p>配置效率和帕累托效率的联系？两者完全等效！</p>
+<p>帕累托有效这个概念回避了每个人对自己收益衡量尺度的不同（量纲不同），因为帕累托有效只考虑每个人相对于自己有没有变好，而不考虑人和人之间的收益比较</p>
+<p><strong>数量才是判断一个市场是否有效的关键</strong> &gt;&gt; 没有所谓的“有效价格”</p>
+<p>自由市场中，价格反映了最后一单位产品的社会收益和最后一单位产品的社会成本</p>
+<h3 id="welfare-analysis-of-policies">对政策的福利评价（Welfare Analysis of Policies）<a class="headerlink" href="#welfare-analysis-of-policies" title="Permanent link">&para;</a></h3>
+<p>所有社会的无效率都来自于市场上的数量和有效数量的偏离（yes? 还有一部分来自于资源的错配）</p>
+<h4 id="_26">价格上限<a class="headerlink" href="#_26" title="Permanent link">&para;</a></h4>
+<p>P-Q曲线上反映的是：在存在价格上限的前提下，社会福利损失的最小情况 &gt;&gt; 从边际和机会成本上考虑这个问题</p>
+<h4 id="_27">税收<a class="headerlink" href="#_27" title="Permanent link">&para;</a></h4>
+<p>无谓损失（deadweight loss）&gt;&gt; 有一些本来应该可以获得剩余的交易因为税收没能进行 &gt;&gt; 图上反映了福利损失的最小情况</p>
+<p>税收本质上是边际的改动，边际的改动会带来消费者选择的改变</p>
+<p>完全无弹性的情况？人们（有一方）对于边际的变化没有反应，税收就变为仅仅转移支付</p>
+<h4 id="_28">无谓损失的决定因素<a class="headerlink" href="#_28" title="Permanent link">&para;</a></h4>
+<ul>
+<li>税收的规模</li>
+<li>税收规模变大 &gt;&gt; 税收？？无谓损失 <span class="arithmatex">\(\uparrow\)</span></li>
+<li>当税收规模为零到无穷的变化过程中，政府的收入从零变化到零（The Laffer Curve）</li>
+<li>市场双方的弹性</li>
+<li>缺乏弹性的需求会减少无谓损失（给定税率），反之亦然</li>
+<li>当需求越来越有弹性时 &gt;&gt; 无谓损失 <span class="arithmatex">\(\uparrow\)</span>，生产者承担的税赋 <span class="arithmatex">\(\uparrow\)</span></li>
+</ul>
+<h2 id="externality-and-public-good">外部性及公共品（Externality and Public Good）<a class="headerlink" href="#externality-and-public-good" title="Permanent link">&para;</a></h2>
+<p>在完全竞争的市场中，个体的理性和群体的理性是没有本质冲突的。</p>
+<p>但是在其他情况下，个体理性和群体理性总是有冲突的，因此需要政府的介入。</p>
+<p>市场失灵（market failing）在现实中的例子十分常见！</p>
+<h3 id="externality">外部性（externality）<a class="headerlink" href="#externality" title="Permanent link">&para;</a></h3>
+<p>市场结果对于除了市场之外的其他人的影响 &gt;&gt; 外部性（externality）：个体经济单位的行为对于社会或者其他部门造成了影响，但是没有承担相应的义务或回报 &gt;&gt; 市场失灵的一个原因</p>
+<p>外部性引起了无效率！</p>
+<p>负外部性（negative externality）&amp; 正外部性（positive externality）</p>
+<h4 id="_29">负外部性的影响<a class="headerlink" href="#_29" title="Permanent link">&para;</a></h4>
+<p>私人成本（private cost）和私人收益（private benefit）&gt;&gt; 对应的恰恰是市场存在时的需求曲线和供给曲线</p>
+<p>社会成本（social cost）和社会收益（social benefit）</p>
+<p>边际产出带来的负外部性在图形上表现为将供给曲线向上移（把需求曲线向下移）。<strong>注意负外部性只能算一次（供给曲线和需求曲线不能都移动）！</strong></p>
+<p>企业不考虑负外部性：
+$$
+SMC({\rm Social\ Marginal\ Cost})&gt;PMC({\rm Private\ Marginal\ Cost}).
+$$
+负外部性使得均衡产量<strong>高于</strong>社会最优产量 <span class="arithmatex">\(Q^*&gt;Q^{\rm eff}\)</span> &gt;&gt; 生产过剩（overproduction）</p>
+<p>负外部性存在时：
+$$
+SMC(Q)=PMC(Q)+EXT(Q)
+$$
+外部<strong>边际</strong>成本 <span class="arithmatex">\(EXT(Q）\)</span>，这是一个<strong>边际量</strong>（不是总量或者平均量）！</p>
+<p>负外部性下产生无谓损失（deadweight loss）&gt;&gt; 只考虑社会边际成本曲线和社会边际收益曲线 
+$$
+DWL=TS^{\max}-TS
+$$</p>
+<h4 id="_30">矫正外部性<a class="headerlink" href="#_30" title="Permanent link">&para;</a></h4>
+<ul>
+<li>教育（education）</li>
+<li>税收（tax）</li>
+<li>许可证（permit）</li>
+</ul>
+<p>让市场<strong>内部化外部性（internalizing the externality）</strong></p>
+<h4 id="_31">税收<a class="headerlink" href="#_31" title="Permanent link">&para;</a></h4>
+<p>税收可以使市场数量下降到社会最优产量</p>
+<p>矫正税（corrective tax）或者 庇古税（Pigovian tax）</p>
+<p>税收等于<strong>最优产量下的外部边际成本</strong>（理性人考虑边际，真正起作用的量是边际量），那么征税后的市场是有效率的</p>
+<h4 id="_32">许可证<a class="headerlink" href="#_32" title="Permanent link">&para;</a></h4>
+<h5 id="tradable-permits">可交易的许可证（tradable permits）<a class="headerlink" href="#tradable-permits" title="Permanent link">&para;</a></h5>
+<p>新的市场会形成（许可证市场）</p>
+<p>将污染看成一种产品，为了实现生产，企业本质上存在着对于污染的需求</p>
+<p>在波动的市场上如何用更好的方法矫正负外部性？？&gt;&gt; 产权不明晰的问题</p>
+<h5 id="permits">不可交易的许可证（permits）<a class="headerlink" href="#permits" title="Permanent link">&para;</a></h5>
+<p>由于厂商和政府信息不对称，政府难以把许可证发放给社会边际成本最低的企业 &gt;&gt; 政府需要考虑如何发放许可证 &gt;&gt; 导致新的无谓损失</p>
+<h4 id="_33">无谓损失产生的原因<a class="headerlink" href="#_33" title="Permanent link">&para;</a></h4>
+<p>市场的失灵本质上是因为<strong>产权不明晰（lack of property rights）</strong></p>
+<p>我们可以通过明晰产权这一行为来矫正外部性</p>
+<h4 id="coase-theorem">科斯定理（Coase Theorem）<a class="headerlink" href="#coase-theorem" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>如果当事各方能就资源配置<strong>无成本</strong>地谈判议价，那么私人市场总能<strong>自行解决</strong>外部性问题，并<strong>有效率</strong>地配置资源。</p>
+</blockquote>
+<p>产权的归属与市场的效率无关，只要分配好产权，在理性人的假设下，市场最终总是有效率的</p>
+<p>产权的分配只会影响市场上不同人的福利</p>
+<p>“科斯谈判”是最关键的部分：如果谈成了，说明谈判让每个人都更好了 &gt;&gt; 市场更有效率了；如果没谈成，说明找不到一个方法使双方更好 &gt;&gt; 市场不能更有效率了。</p>
+<p>前提：产权需要明晰，理性人假设，谈判成本不能过高</p>
+<h4 id="_34">正外部性的影响<a class="headerlink" href="#_34" title="Permanent link">&para;</a></h4>
+<p>均衡产量<strong>低于</strong>社会的最优数量（underproduction）</p>
+<p>政府可以通过补贴来实现增加产量，但是政府不能通过许可证来矫正外部性</p>
+<p>税收是什么？政府在征税的时候，厂商有激励通过贿赂消费者以逃税</p>
+<p>这正是一个科斯谈判！个体消费者和个体生产者通过明晰税的产权（不论是消费者拥有税还是生产者拥有税），从而重新达到市场效率最大（征税是无效率的）</p>
+<p>政府给每张发票提供一个中奖概率？提高谈判成本！</p>
+<h3 id="_35">公共品和共有资源<a class="headerlink" href="#_35" title="Permanent link">&para;</a></h3>
+<p>物品的特征：</p>
+<ul>
+<li>排他性（excludability）</li>
+<li>竞争性（rivalness）</li>
+</ul>
+<p>私人物品（private goods），自然垄断（natural monopolies），共有资源（common resources），公共物品（public goods）</p>
+<p>只有私人物品的市场是有效率的！</p>
+<p>排他性：一件商品只能实现一个人的支付意愿</p>
+<p>竞争性：一件商品实现两个人的支付意愿的同时，不会影响两个人各自的支付意愿的值</p>
+<p>公共品 &gt;&gt; 可以直接将两个人的支付意愿进行加总！<strong>社会的边际收益是每个消费者的支付意愿的总和</strong>
+$$
+MB_{\rm tot}=\sum_i MB_i
+$$
+排他性？<span class="arithmatex">\(MB_{\rm tot}=\max\{MB_i\}\)</span></p>
+<p>竞争性？<span class="arithmatex">\(MB_{\rm tot}=\sum_iMB_i-{\rm loss}\)</span></p>
+<p>私人物品的社会边际收益曲线（水平加总，从价格找数量） v.s. 公共品的社会边际收益曲线（垂直加总，从数量找价格）</p>
+<h4 id="_36">解决市场失灵：政府的介入<a class="headerlink" href="#_36" title="Permanent link">&para;</a></h4>
+<p>政府该收多少税？</p>
+<p>投票机制的设计？全票通过 or 少数服从多数？</p>
+<h4 id="_37">共有地悲剧<a class="headerlink" href="#_37" title="Permanent link">&para;</a></h4>
+<p>共有资源：具有竞争性而不具有排他性的商品</p>
+<p>解决方法：数量控制，税收，可交易的许可证，产权私有化（来自于科斯定理）</p>
+<h2 id="consumer-theory">消费者理论（Consumer Theory）<a class="headerlink" href="#consumer-theory" title="Permanent link">&para;</a></h2>
+<h3 id="budget-constraint">预算约束（Budget Constraint）<a class="headerlink" href="#budget-constraint" title="Permanent link">&para;</a></h3>
+<p>预算约束:
+$$
+P_A\times Q_A+P_B\times Q_B=I
+$$
+以A度量的实际收入：<span class="arithmatex">\(I/P_A\)</span></p>
+<p>以B度量的实际收入：<span class="arithmatex">\(I/P_B\)</span></p>
+<p>以B度量的A的价格：<span class="arithmatex">\(P_A/P_B\)</span></p>
+<h3 id="_38">消费者偏好的刻画<a class="headerlink" href="#_38" title="Permanent link">&para;</a></h3>
+<p>偏好的完备性：给出任意两个点，都可以给出消费者更加偏好哪个点（或者两个点无差异）</p>
+<p>无差异曲线（indifference curve）：在无差异曲线上的任意消费组合对于消费者都是等价的（效用是相同的）</p>
+<p>无差异曲线的性质：无差异曲线向右下方倾斜（消费者两种商品都喜欢，在相同的效用水平上，消费者面临权衡取舍），较⾼的⽆差异曲线对应更⾼的效用，无差异曲线不能相交（消费者的偏好具有传递性），无差异曲线凸向（convex）原点（边际替代率递减，yes？毒品？）</p>
+<p>边际替代率（Marginal Rate of Substitution）</p>
+<p>完全替代品和完全互补品是满足无差异曲线四条性质的最极端的例子 &gt;&gt; 我们只需要研究这两种极端的例子就可以对所有无差异曲线产生一个直观的理解</p>
+<p>从无差异曲线中得到的结论：</p>
+<blockquote>
+<p>人们喜欢多样性！People love diversity.</p>
+<p>或者，人们都是风险规避的！People are averse to risks.</p>
+</blockquote>
+<p>赌徒（风险偏好）的无差异曲线？凹向（concave）原点！</p>
+<p>重新思考：如何定义理性？</p>
+<h3 id="_39">消费者行为的预测<a class="headerlink" href="#_39" title="Permanent link">&para;</a></h3>
+<p>最终的消费组合必定在预算约束线上 &gt;&gt; 模型中不允许消费者储蓄（模型的缺点？如何将储蓄纳入到模型当中？）</p>
+<p>在最优的消费组合处，两种产品的边际替代率等于两种产品的相对价格（否则，消费者就会有套利的空间）
+$$
+MRS=\frac{P_B}{P_A}
+$$</p>
+<p>通过消费者的行为我们可以反推消费者的偏好！价格的力量</p>
+<h3 id="_40">比较静态分析<a class="headerlink" href="#_40" title="Permanent link">&para;</a></h3>
+<p>比较静态：收入增加</p>
+<p>一般物品和劣等物品</p>
+<p>比较静态：价格变化</p>
+<p>经济学直觉？</p>
+<p>当某种商品价格下降时，消费者的行为改变？？</p>
+<ul>
+<li>消费者感觉比之前变得更加富有（收入效应）</li>
+<li>这种商品相对于其他商品变得更加便宜（替代效应）</li>
+</ul>
+<p>如果对于劣等品来说，其收入效应大于替代效应，那么价格下降时，商品的需求反而会减小 &gt;&gt; 需求定律被打破 &gt;&gt; 吉芬物品</p>
+<p>吉芬品至少需要是一个劣等品。而且收入效应要足够强（相对来说收入比较少的时候）</p>
+<h3 id="1">应用1：劳动供给曲线<a class="headerlink" href="#1" title="Permanent link">&para;</a></h3>
+<p>如何用消费者理论构建劳动力市场的供给曲线？</p>
+<p>考虑收入（income）和闲暇（leisure）两种商品</p>
+<p>小时工资数增加带来的影响？</p>
+<ul>
+<li>收入效应：人们变得富有 &gt;&gt; 更多的闲暇，更少的工作时间</li>
+<li>替代效应：闲暇的机会成本增加 &gt;&gt; 更少的闲暇，更多的工作时间</li>
+</ul>
+<p>替代效应 &gt; 收入效应：劳动供给曲线向上倾斜（工资较低的时候）</p>
+<p>替代效应 &lt; 收入效应：劳动供给曲线是向下倾斜（工资较高的时候）</p>
+<h3 id="2">应用2：消费者的储蓄决策<a class="headerlink" href="#2" title="Permanent link">&para;</a></h3>
+<p>人们面临当下消费和未来消费之间的权衡取舍</p>
+<p>将消费者当下消费和未来消费作为两种商品</p>
+<p>两期模型，利率为<span class="arithmatex">\(r\)</span></p>
+<p>当期消费：<span class="arithmatex">\(c_1=y-s\)</span>
+未来消费：<span class="arithmatex">\(c_2=s(1+r）\)</span></p>
+<p>重新改写消预算约束线：<span class="arithmatex">\(c_1+c_2/(1+r）=y\)</span> &gt;&gt; 代表了消费者在两期之间的权衡取舍，今天的“1块钱”<span class="arithmatex">\(\ne\)</span>明天的“1块钱”</p>
+<p>第一期收入为<span class="arithmatex">\(y_1\)</span>，第二期收入为<span class="arithmatex">\(y_2\)</span>，预算约束线？
+$$
+c_1+\frac{c_2}{1+r}=y_1+\frac{y_2}{1+r}
+$$
+借贷市场对预算约束线的影响？类比阶梯电价 &gt;&gt; 边际价格发生变化的市场（非线性的预算约束线），出现很多人的选择堆积在一个点的现象，聚束效应（bunching）</p>
+<h2 id="producer-theory">厂商理论（Producer Theory）<a class="headerlink" href="#producer-theory" title="Permanent link">&para;</a></h2>
+<p>两个假设：企业只生产一种产品；企业生产的产品对所有人的价格都一样</p>
+<p>企业的目标：利润最大化（保证企业的有效运营）</p>
+<h3 id="_41">经济学中的成本<a class="headerlink" href="#_41" title="Permanent link">&para;</a></h3>
+<p>生产成本：包括生产物品与服务的所有机会成本（opportunity costs）</p>
+<p>opportunity costs = explicit costs + implicit costs</p>
+<p>隐性成本e.g. 企业主将自有资金投资于企业（将这批钱投资于其他地方带来的最大收益），创业初期核心成员无偿为企业工作（员工选择去其他地方工作带来的最大收益）</p>
+<p>经济利润（economic profits）v.s. 会计利润（accounting profits）</p>
+<blockquote>
+<p>充分竞争的市场中，所有企业的经济利润为零，但是会计利润可以是正的。</p>
+</blockquote>
+<p>经济利润的应用：EVA（Economic Value Added）</p>
+<h3 id="_42">成本曲线<a class="headerlink" href="#_42" title="Permanent link">&para;</a></h3>
+<h4 id="_43">生产成本<a class="headerlink" href="#_43" title="Permanent link">&para;</a></h4>
+<p>我们在本节课上使用的都是经济利润（机会成本，隐形成本标准化为零）</p>
+<h4 id="_44">生产函数<a class="headerlink" href="#_44" title="Permanent link">&para;</a></h4>
+<p>生产函数（production function）：从要素到最终产品的一个映射
+$$
+Q=f(K,L),{\rm where}\ K\ {\rm is\ the\ capital\ and}\ L\ {\rm is\ the\ labor.}
+$$
+我们假定煎饼的生产只需要投入劳动力 &gt;&gt; 好处：对于每一个数量我们都可以唯一确定投入的要素，不需要考虑厂商在要素投入中的权衡取舍，极大的简化了我们的分析</p>
+<p>生产函数的基本性质：</p>
+<ul>
+<li>产量关于要素数量递增：<span class="arithmatex">\(f'(L）&gt;0\)</span></li>
+<li>生产函数经过原点：<span class="arithmatex">\(f(0）=0\)</span></li>
+</ul>
+<h4 id="_45">边际产量<a class="headerlink" href="#_45" title="Permanent link">&para;</a></h4>
+<div class="arithmatex">\[
+MP({\rm Marginal\ Product})=\frac{\Delta Q}{\Delta L}
+\]</div>
+<p>如果生产函数为<span class="arithmatex">\(f(K,L）\)</span>，边际产量为
+$$
+MP=\frac{\partial f(K,L)}{\partial L},\frac{\partial^2f(K,L)}{\partial K\partial L}&gt;0?&lt;0?
+$$
+二阶交叉偏导数刻画了资本和劳动力之间的互补和替代关系</p>
+<ul>
+<li>如果生产函数是线性的（linear），那么边际产量不变</li>
+<li>如果生产函数是凸的（convex），那么边际产量递增（有效的来源：团队内部的专业分工，gains from specializaiton；在劳动中学习，learning by doing）</li>
+<li>如果生产函数是凹的（concave），那么边际产量递减（law of diminishing marginal product）</li>
+</ul>
+<p>一般形状：先凸后凹</p>
+<h4 id="_46">成本函数<a class="headerlink" href="#_46" title="Permanent link">&para;</a></h4>
+<p>总成本函数：企业能够生产的<strong>成本</strong>与<strong>数量</strong>之间的关系</p>
+<p>需要知道：1、生产函数；2、要素价格（这里我们假设要素市场完全竞争）</p>
+<p>生产成本 = 固定成本（fixed costs）+ 可变成本（variable costs）</p>
+<p>总生产成本 = 总固定成本 + 总可变成本
+$$
+TC=TFC+TVC
+$$
+一般形状：先凸后凹</p>
+<p>边际成本(marginal cost）<span class="arithmatex">\(MC=\Delta TC/\Delta Q\)</span>，一般来说随产量先减少后增加（呈U型的）</p>
+<h4 id="_47">平均成本曲线<a class="headerlink" href="#_47" title="Permanent link">&para;</a></h4>
+<p>平均生产成本 = 平均固定成本 + 平均可变成本
+$$
+ATC = AFC + AVC
+$$
+平均固定成本：more and more convex (diminishing marginal fixed cost)</p>
+<p>平均可变成本：先减后增（呈U型）</p>
+<p>平均总成本：也是先减后增，但是最低点在<span class="arithmatex">\(AVC\)</span>之后（Yes?）。最小平均总成本最小化的产量 &gt;&gt; 企业的有效率规模（<span class="arithmatex">\(Q^e\)</span>, efficient scale of the firm）--社会最优产量（对个人来说）？</p>
+<p><strong>边际成本曲线 <span class="arithmatex">\(MC\)</span> 必须过 <span class="arithmatex">\(ATC\)</span> 和 <span class="arithmatex">\(AVC\)</span> 的最低点</strong></p>
+<ul>
+<li>当 <span class="arithmatex">\(MC&lt;ATC\)</span> 时，新增的产量会拉低平均成本</li>
+<li>当 <span class="arithmatex">\(MC&gt;ATC\)</span> 时，新增的产量会抬高平均成本</li>
+</ul>
+<h3 id="_48">长期成本和短期成本<a class="headerlink" href="#_48" title="Permanent link">&para;</a></h3>
+<h4 id="atc-vs-atc">长期 <span class="arithmatex">\(ATC\)</span> v.s. 短期<span class="arithmatex">\(ATC\)</span><a class="headerlink" href="#atc-vs-atc" title="Permanent link">&para;</a></h4>
+<p>固定成本：短期内不能改变的成本 &gt;&gt; 外生变量</p>
+<p>但是在长期，固定成本也会转化为可变成本 &gt;&gt; 内生变量</p>
+<p>在长期，厂商可以更加灵活地调整要素的投入；不同企业对于“长短期”的定义差别可以很大</p>
+<p>长期<span class="arithmatex">\(ATC\)</span>曲线是短期<span class="arithmatex">\(ATC\)</span>曲线的包络线。长期<span class="arithmatex">\(ATC\)</span>曲线一般来说比短期<span class="arithmatex">\(ATC\)</span>曲线扁平得多 &lt;&lt; 长期来看企业有更多选择，弹性更大</p>
+<h4 id="vs">规模经济 v.s. 规模不经济<a class="headerlink" href="#vs" title="Permanent link">&para;</a></h4>
+<ul>
+<li>规模经济（economies of scale）</li>
+<li>规模不经济（diseconomies of scale）</li>
+<li>规模收益不变（constant returns to scale）</li>
+</ul>
+<h2 id="firms-in-competitive-markets">竞争市场中的企业（Firms in Competitive Markets）<a class="headerlink" href="#firms-in-competitive-markets" title="Permanent link">&para;</a></h2>
+<h3 id="_49">企业的目标：利益最大化<a class="headerlink" href="#_49" title="Permanent link">&para;</a></h3>
+<p>总收益是销售价格乘以销售量 &gt;&gt; 对<strong>竞争企业</strong>来说，总收益与产量成比例</p>
+<p>给定价格 &gt;&gt; 选择产量 <span class="arithmatex">\(q\)</span> 以最大化利润</p>
+<p>价格较低 &gt;&gt; 停产
+价格稍高 &gt;&gt; 生产，虽然此时还是亏钱，但是企业的运营可以覆盖其可变成本，因此企业会生产以最小化损失
+价格再高 &gt;&gt; 找到利润最大的点进行生产</p>
+<h3 id="_50">平均收益曲线和边际收益曲线<a class="headerlink" href="#_50" title="Permanent link">&para;</a></h3>
+<p>对所有企业，平均收益等于产品价格</p>
+<p>对完全竞争的企业，边际收益等于产品价格</p>
+<p>直觉：在完全竞争市场中，在一个价格下，企业想卖出多少产品就可以卖出多少产品。然而在其他市场中，企业多卖出产品会导致价格的下降</p>
+<h3 id="_51">边际上的考虑<a class="headerlink" href="#_51" title="Permanent link">&para;</a></h3>
+<p>最后一单位产品带来的收益等于生产成本
+$$
+MC=MR=p
+$$</p>
+<h3 id="_52">企业的市场行为<a class="headerlink" href="#_52" title="Permanent link">&para;</a></h3>
+<p>短期内：</p>
+<ul>
+<li>企业可以选择生产</li>
+<li>或者停止营业</li>
+</ul>
+<p>固定成本是外生变量（exogenous variable）&gt;&gt; 沉没成本（sunk cost）</p>
+<p>长期内：</p>
+<ul>
+<li>企业可以进入市场进行生产</li>
+<li>或者退出市场（不可能进入市场而不生产）</li>
+</ul>
+<p>固定成本是内生变量（endogenous variable）&gt;&gt; 如果企业退出，经济利润为零</p>
+<p>两个特殊的价格：收支平衡价格（min{ATC}）和停止营业价格（min{AVC}）</p>
+<h3 id="_53">企业短期的供给曲线<a class="headerlink" href="#_53" title="Permanent link">&para;</a></h3>
+<p>短期供给曲线是边际成本曲线（在平均可变成本以上的那一部分）</p>
+<p>长期供给曲线是边际成本曲线（在平均总成本以上的那一部分）</p>
+<h3 id="_54">个体企业与市场供需<a class="headerlink" href="#_54" title="Permanent link">&para;</a></h3>
+<p>所有企业完全同质（homogeneous firms）&gt;&gt; 同样的成本曲线</p>
+<p>自由的进出市场（free entry condition）</p>
+<p>将生产者理论和消费者理论给出的结果合起来 &gt;&gt; 外生变量内生化，企业数量成为内生量</p>
+<p>市场均衡：<span class="arithmatex">\((P^*,Q^*,q^*,N^*）\)</span></p>
+<p>长期的市场供给曲线是完全弹性的！</p>
+<h3 id="_55">向上倾斜的长期供给曲线？<a class="headerlink" href="#_55" title="Permanent link">&para;</a></h3>
+<h4 id="increasing-input-prices">递增的要素价格（increasing input prices）<a class="headerlink" href="#increasing-input-prices" title="Permanent link">&para;</a></h4>
+<p>企业的成本曲线会随着市场规模的增加而不断向上移动 &gt;&gt; 长期供给曲线向右上方倾斜</p>
+<h4 id="heterogeneous-firms">不同的成本曲线（heterogeneous firms）<a class="headerlink" href="#heterogeneous-firms" title="Permanent link">&para;</a></h4>
+<p>企业在完全竞争的市场中获得零利润？&gt;&gt; 边际企业获得零利润</p>
+<h2 id="monopoly">垄断（Monopoly）<a class="headerlink" href="#monopoly" title="Permanent link">&para;</a></h2>
+<h3 id="vs_1">垄断 v.s. 完全竞争<a class="headerlink" href="#vs_1" title="Permanent link">&para;</a></h3>
+<p>完全竞争 &lt; 垄断竞争 &lt; 寡头 &lt; 垄断</p>
+<p>完全竞争 &gt;&gt; 企业是价格接受者（price taker）</p>
+<p>垄断 &gt;&gt; 企业是价格制定者（price maker）</p>
+<p>企业通过产品设计和价格来削弱市场竞争：超市里看到的不同包装不同价格的软饮？？</p>
+<p>垄断的根本原因：<strong>进入壁垒（entry barriers）</strong>。而完全竞争的下的市场，企业可以自由进入市场</p>
+<p>自然垄断（naturally monopoly）：某个企业能以低于大量生产者的成本生产</p>
+<p>在垄断下，企业面临着<strong>数量与价格的权衡取舍</strong>；然而在完全竞争的市场上，企业不面临这样的tradeoff &gt;&gt; 垄断的企业面对的需求就是市场的需求 &gt;&gt; 多生产一单位产品带来的后果？？</p>
+<p>我们假设企业能知道市场的需求曲线（新品发布时企业能知道吗？同时确定价格和数量？需求的不确定性？），企业也不考虑所有其他因素，只考虑当期利润的最大化
+$$
+{\rm profit}(q)=D(q)\times q-TC(q)
+$$
+竞争市场中的边际收益曲线 <span class="arithmatex">\(p=MR\)</span>，垄断市场？？</p>
+<h3 id="_56">垄断市场的利润最大化<a class="headerlink" href="#_56" title="Permanent link">&para;</a></h3>
+<p>垄断市场的边际收益曲线<strong>低于</strong>市场的需求曲线 &gt;&gt; 社会计划者和垄断企业关注的曲线不一样，这会导致的后果？？</p>
+<p><strong>边际收益在需求曲线之下，反应的就是企业在价格和数量的权衡取舍</strong></p>
+<p><em>但是这件事情不一定在垄断的时候成立 &gt;&gt; 价格歧视下，企业不面临价格和数量的权衡取舍</em></p>
+<p>只要企业面临的需求曲线向右下方倾斜，就代表企业面临价格和数量的权衡取舍</p>
+<p>结论：如果需求曲线是线性的，那么边际收益曲线也是线性的，且斜率是需求曲线斜率的两倍
+$$
+P=b-kQ,\quad MR=b=2kQ
+$$
+最优产量和最优价格处满足：<span class="arithmatex">\(MC=MR\)</span></p>
+<p><em>边际收益曲线和边际成本曲线的交点的横坐标 &gt;&gt; <span class="arithmatex">\(Q^m\)</span>，对应的和需求曲线的交点的纵坐标 &gt;&gt; <span class="arithmatex">\(P^m\)</span></em></p>
+<h3 id="_57">福利分析<a class="headerlink" href="#_57" title="Permanent link">&para;</a></h3>
+<p>社会最佳产量 <span class="arithmatex">\(Q^*\)</span> &gt;&gt; 边际成本和需求曲线交点</p>
+<p>垄断市场上，会有无谓损失，企业会有减产的动力（underproduction）&gt;&gt; 因为企业获得了市场势力，它就面临着价格和数量的权衡取舍</p>
+<p>最后一单位消费者的支付意愿与生产成本的差额被称为垄断下的加成（markup）</p>
+<h3 id="1mr-vs-mb">题外话1：MR v.s. MB<a class="headerlink" href="#1mr-vs-mb" title="Permanent link">&para;</a></h3>
+<p>Marginal revenue是从企业的角度看问题</p>
+<p>Marginal benefit是从社会计划者的角度看问题</p>
+<p>MR与市场结构有关，但是MB与市场结构无关（只和消费者的支付意愿有关）</p>
+<h3 id="2-vs">题外话2：生产者剩余 v.s. 利润<a class="headerlink" href="#2-vs" title="Permanent link">&para;</a></h3>
+<p>生产者剩余和利润差不多描述的是一件事情 &gt;&gt; 差一个固定成本
+$$
+{\rm total\ profit}={\rm producer\ surplus}-{\rm fixed\ costs}
+$$</p>
+<h3 id="_58">政府政策与福利<a class="headerlink" href="#_58" title="Permanent link">&para;</a></h3>
+<h4 id="_59">使垄断企业更有竞争性<a class="headerlink" href="#_59" title="Permanent link">&para;</a></h4>
+<p>禁止企业合并，拆分公司</p>
+<p>在之前，并购是为了获得更大的市场势力，但是现在，并购公司很大程度上是为了或者数据</p>
+<h4 id="_60">将私人企业国有化<a class="headerlink" href="#_60" title="Permanent link">&para;</a></h4>
+<p>改变厂商的目标函数，让社会福利最大化</p>
+<p>但是...成本太高</p>
+<h4 id="_61">管制垄断者的行为<a class="headerlink" href="#_61" title="Permanent link">&para;</a></h4>
+<p>政府可以直接干预企业的市场定价</p>
+<ul>
+<li>边际成本定价 <span class="arithmatex">\(P=P^{\rm mc}\)</span></li>
+<li>平均总成本定价 <span class="arithmatex">\(P=P^{\rm atc}\)</span></li>
+</ul>
+<p>or 为垄断企业提供（单位）补贴 &gt;&gt; 让垄断企业获得了更多的利润？公平？</p>
+<h3 id="_62">自然垄断下的政府管制<a class="headerlink" href="#_62" title="Permanent link">&para;</a></h3>
+<p>自然垄断的形成条件是：<span class="arithmatex">\(Q^{\rm eff}&gt;Q^{\max}\)</span></p>
+<p>一个例子：较大的固定成本+恒定的边际成本</p>
+<p>边际成本定价+一次性补贴（lump sum subsidy）</p>
+<p>平均总成本定价+不需要补贴</p>
+<h3 id="_63">价格歧视<a class="headerlink" href="#_63" title="Permanent link">&para;</a></h3>
+<p>在垄断下，企业拥有市场势力，企业可以根据销售量选择对应的价格，而不再选择单一的价格</p>
+<p>企业的歧视性定价（price discrimination）可以增加企业利润</p>
+<p>当相同的产品在不同市场上的价格不同，就存在着套利（arbitrage）空间 &gt;&gt; 企业应该尽可能地阻止消费者套利</p>
+<h4 id="first-degree-price-discrimination-perfect-price-discrimination">一级价格歧视（first degree price discrimination, perfect price discrimination）<a class="headerlink" href="#first-degree-price-discrimination-perfect-price-discrimination" title="Permanent link">&para;</a></h4>
+<p>对每个人每一单位的产品价格进行歧视</p>
+<p>要求厂商知道每位消费者的支付意愿，并对产品逐一定价</p>
+<p>与<strong>单一定价</strong>垄断不同，厂商不再面临数量与价格的权衡取舍</p>
+<p>此时，边际收益曲线等于需求曲线 <span class="arithmatex">\(MR=D\)</span>（单一定价的边际收益曲线<span class="arithmatex">\(MR&lt;D\)</span>）</p>
+<p>市场数量等于社会最优产量，经济中没有无谓损失，市场是有效率的</p>
+<p>消费者剩余为零，厂商获得所有的剩余</p>
+<p><strong>厂商和消费者的互动！</strong></p>
+<h4 id="second-degree-price-discrimination">二级价格歧视（second degree price discrimination）<a class="headerlink" href="#second-degree-price-discrimination" title="Permanent link">&para;</a></h4>
+<p>歧视来自产量而非消费群体</p>
+<p>企业在产品设计的时候将不同量的产品赋予不同的定价，从消费者的选择中就可以看出消费者的偏好</p>
+<p>企业通过改变边际上的激励改变消费者的行为 &gt;&gt; 迫使消费者通过购买行为披露自己的信息</p>
+<p>厂商通过非线性定价限制消费者的选择</p>
+<h5 id="screen">二级价格歧视与甄别（screen）机制<a class="headerlink" href="#screen" title="Permanent link">&para;</a></h5>
+<p>企业无法对消费者的偏好进行直接观察，如何甄别？</p>
+<p>通过识别消费者的痛点，对不同消费者进行甄别</p>
+<blockquote>
+<p>生活中的价格歧视：</p>
+<p>平装书&amp;精装书，宜家送货服务，加油站的随机优惠，以旧换新</p>
+</blockquote>
+<h4 id="third-degree-price-discrimination">三级价格歧视（third degree price discrimination）<a class="headerlink" href="#third-degree-price-discrimination" title="Permanent link">&para;</a></h4>
+<p>在不同的市场上进行歧视</p>
+<p>考虑边际成本恒定的情况</p>
+<p>三级价格的极致就是一级价格歧视（一级价格歧视下，每个人都是一个子市场）</p>
+<p><strong>信息差的作用！</strong></p>
+<h2 id="monopolistic-competition-and-the-markets-for-the-factors-of-production">垄断竞争及生产要素市场（Monopolistic Competition and the Markets for the Factors of Production）<a class="headerlink" href="#monopolistic-competition-and-the-markets-for-the-factors-of-production" title="Permanent link">&para;</a></h2>
+<h3 id="_64">垄断竞争<a class="headerlink" href="#_64" title="Permanent link">&para;</a></h3>
+<p>垄断竞争既有垄断又有竞争，但是更偏向于竞争。</p>
+<p>产品是异质的。</p>
+<p>寡头想刻画的是企业之间<strong>策略性的互动</strong>，而垄断竞争想要刻画的是<strong>产品差异化</strong>的影响</p>
+<h3 id="_65">企业获得经济利润的原因<a class="headerlink" href="#_65" title="Permanent link">&para;</a></h3>
+<p>完全竞争下，激烈的竞争来自于：1. 无壁垒；2. 产品同质</p>
+<p>The real reason for zero profit in competitive markets?</p>
+<p>垄断竞争下，企业具有一定的市场势力 &gt;&gt; 与垄断相同，企业面临一条向下的需求曲线
+$$
+MR&lt;D
+$$
+垄断竞争下，<span class="arithmatex">\(ATC\)</span>曲线一定经过<span class="arithmatex">\((q^m,p^m）\)</span>，换言之，企业仍然获得零利润</p>
+<p>直觉上，长期中，企业可以自由进入和退出市场 &gt;&gt; 企业获得零利润 &gt;&gt; 核心在于其他企业的加入改变了需求曲线</p>
+<h4 id="_66">短期中的垄断竞争企业<a class="headerlink" href="#_66" title="Permanent link">&para;</a></h4>
+<p>如果短期内正利润 &gt;&gt; 其他企业进入市场 &gt;&gt; 市场中产品数量增加 &gt;&gt; 原有企业面对的需求曲线向左移动 &gt;&gt; 企业利润减少 &gt;&gt; 直到获得零利润</p>
+<p>如果短期内负利润 &gt;&gt; 其他企业退出市场 &gt;&gt; 市场中产品数量减少 &gt;&gt; 原有企业面对的需求曲线向右移动 &gt;&gt; 企业利润增加 &gt;&gt; 直到获得零利润</p>
+<p><strong>自由进入条件一定会导致企业的零利润。</strong></p>
+<h4 id="_67">不同实现市场零利润的机制<a class="headerlink" href="#_67" title="Permanent link">&para;</a></h4>
+<p>完全竞争：企业作为价格接受者，其他企业进入市场导致供给曲线移动从而导致价格变动</p>
+<p>垄断竞争：企业拥有市场势力，为价格制定者，其他企业进入市场导致企业面对的需求曲线左移（边际收益曲线左移）</p>
+<h3 id="_68">劳动力市场<a class="headerlink" href="#_68" title="Permanent link">&para;</a></h3>
+<h4 id="_69">劳动力市场与最终产品市场<a class="headerlink" href="#_69" title="Permanent link">&para;</a></h4>
+<p>劳动力市场（要素市场）是一个衍生的市场，但是最终产品市场会影响劳动力市场</p>
+<p>我们用消费者理论解释要素市场的供给曲线（labor-leisure choice model），因为此时消费者站在要素市场的供给端</p>
+<p>只有劳动力市场完全竞争，企业才会有需求曲线（此时企业是价格接受者）</p>
+<h4 id="_70">劳动的需求曲线<a class="headerlink" href="#_70" title="Permanent link">&para;</a></h4>
+<p>劳动的边际产量（marginal physical product of labor）</p>
+<p>厂商将一直招聘劳动力，直到最后一单位工人创造的收益等于雇佣其的成本（边际收益等于边际成本）&gt;&gt; 劳动力的需求曲线
+$$
+w=(p-c)\times MPP(l)
+$$
+<span class="arithmatex">\(MPP(l）\)</span> 是随 <span class="arithmatex">\(l\)</span> 递减的，所以需求曲线向右下方倾斜</p>
+<p>比较静态：当最终产品价格上升时，需求曲线围绕最大的需求量顺时针移动（而不是向右平行移动）</p>
+<h4 id="_71">福利分析<a class="headerlink" href="#_71" title="Permanent link">&para;</a></h4>
+<p>劳动力市场的福利分析和最终产品市场的福利分析完全相反</p>
+<p>工人剩余和企业剩余 &gt;&gt; 对应“生产者剩余”和“消费者剩余”</p>
+<p>最低工资政策的影响：失业，企业剩余减少，无谓损失...</p>
+<p>部分实证检验的结果：提高最低工资将<strong>增加</strong>就业？？？</p>
+<p>企业在要素市场上具有一定市场势力（垄断），从而扭曲了市场的劳动力价格，最低工资的政策在一定程度上矫正了这种扭曲（类似于自然垄断的价格规制）</p>
+<blockquote>
+<p>Last Place Aversion</p>
+<p>在最低工资附近的工人不愿意提高最低工资，因为他们不希望最低工资提高后自己成为社会收入最低的那一部分人。</p>
+<p>这是一个不理性的结果，可以放入行为经济学的框架进一步分析。</p>
+</blockquote>
+<h3 id="monopsony">买方垄断（Monopsony）<a class="headerlink" href="#monopsony" title="Permanent link">&para;</a></h3>
+<p>市场上只有一个买家，买家具有市场势力 &gt;&gt; 不存在需求曲线</p>
+<p>买方垄断是垄断的反面，分析逻辑完全相同</p>
+<p>边际成本曲线在供给曲线之上（逻辑和为什么边际收益曲线在需求曲线之下一样，权衡取舍？），截距相同且斜率是供给曲线的两倍</p>
+<p><span class="arithmatex">\(MC\)</span> 截距和供给曲线相同？第一单位就是边际，不面临权衡取舍</p>
+<p>结果：underproduction &amp; deadweightloss</p>
+<h4 id="_72">福利分析<a class="headerlink" href="#_72" title="Permanent link">&para;</a></h4>
+<p>最低工资政策（minimum wage）</p>
+<p>最低工资改变了企业在边际上的激励（迫使垄断者从价格制定者变为价格接受者）</p>
+<p>当最低工资低于完全竞争下的均衡工资 &gt;&gt; 市场中不存在失业</p>
+<p>当最低工资高于完全竞争下的均衡工资 &gt;&gt; 市场中存在失业 &gt;&gt; 企业的市场势力被剥夺太多</p>
+<p>买方垄断的价格歧视</p>
+<h2 id="oligopoly-and-game-theory">寡头与博弈论（Oligopoly and Game Theory）<a class="headerlink" href="#oligopoly-and-game-theory" title="Permanent link">&para;</a></h2>
+<p>寡头情形下：策略性的互动（strategic interactions）</p>
+<p>如何预测策略性互动影响下经济个体的行为？博弈论（Game Theory）！</p>
+<p>双头模型：最简单的寡头模型</p>
+<p>博弈的元素</p>
+<ul>
+<li>玩家（Players）</li>
+<li>可能的行动（Possible actions）</li>
+<li>信息（Information）</li>
+<li>收益（Payoffs）</li>
+</ul>
+<h3 id="prisoners-dilemma">囚徒困境（Prisoner's Dilemma）<a class="headerlink" href="#prisoners-dilemma" title="Permanent link">&para;</a></h3>
+<div class="arithmatex">\[
+\begin{array}{}
+&amp;{\rm confess}&amp;{\rm deny}\\
+{\rm confess}&amp;\mathbf{-5,-5} &amp; 0, -10\\
+{\rm deny}&amp;-10, 0 &amp; -1,-1
+\end{array}
+\]</div>
+<p>注意：上面的收益是<strong>序数</strong>概念</p>
+<ul>
+<li>最佳应对（best response）</li>
+<li>占优策略（dominant strategy）</li>
+</ul>
+<h3 id="nash-equilibrium">纳什均衡（Nash Equilibrium）<a class="headerlink" href="#nash-equilibrium" title="Permanent link">&para;</a></h3>
+<p>博弈中每一个玩家，在其他玩家选择的策略既定时，选择了自己的最优策略。</p>
+<p>在纳什均衡中，没有玩家有激励偏离自己的策略。</p>
+<ul>
+<li>冯诺依曼：从策略上思考问题 &gt;&gt; dominant/ dominated strategy</li>
+<li>纳什：从结果思考问题（形成一个“好的”结果） &gt;&gt; equilibrium notion/ concept</li>
+</ul>
+<p>如果用策略的思维思考问题，得到的结果和纳什均衡的结果应该一样。</p>
+<h3 id="_73">囚徒困境的福利分析<a class="headerlink" href="#_73" title="Permanent link">&para;</a></h3>
+<p>我们使用帕累托有效评价博弈的结果</p>
+<p>用帕累托有效评价，上面的囚徒困境有三个有效率的结果</p>
+<p>但是均衡下的结果恰恰是那个唯一的无效率的结果！</p>
+<p>亚当斯密告诉我们：价格理论中，所有人基于自己的理性进行行动，群体的行动将会是理性的 &gt;&gt; 市场“看不见的手”</p>
+<p>但是，在博弈论的框架下，个体理性的结果会导致群体行为的无效率</p>
+<p>根本原因：博弈论中策略性互动的存在。在价格理论中，所有消费者和生产者都是价格接收者（完全竞争），每个人本质上都只是在做自己收益的最大化，抹去了人与人之间策略性的互动，从而最终结果会是有效率的。</p>
+<p>如果我们将囚徒困境看作是一种机制设计（mechaism design）......</p>
+<ul>
+<li>收益矩阵内生化</li>
+<li>这种机制设计本质上是屈打成招</li>
+</ul>
+<p>重新思考纳什均衡：纳什均衡中，没有玩家单方面愿意偏离均衡结果？联合背离？？&gt;&gt; collusion proof?? 所有的博弈中纳什均衡存在？唯一？</p>
+<h3 id="_74">囚徒困境的应用<a class="headerlink" href="#_74" title="Permanent link">&para;</a></h3>
+<h4 id="_75">团队合作<a class="headerlink" href="#_75" title="Permanent link">&para;</a></h4>
+<p>shirk or effort</p>
+<p>两个均衡的结果......</p>
+<p>纳什均衡不是最后的结果 &gt;&gt; 只排除了一系列“不好”的结果</p>
+<p>为什么两种博弈会有两种截然不同的结果？（奋进版 v.s. 堕落版）</p>
+<p>别人的努力可以替代你的努力？...对方努力与否，影响着我努力的边际收益，这是一种互补的情形</p>
+<p>生产存在着互补性 &gt;&gt; 双方都有强激励匹配对方的选择 &gt;&gt; 双方会发生合作 &gt;&gt; 多重均衡</p>
+<p>现实例子：网络协同</p>
+<h4 id="_76">广告竞争<a class="headerlink" href="#_76" title="Permanent link">&para;</a></h4>
+<p>广告的作用：1. 广而告之，使市场的需求曲线外移；2. 使对方的需求曲线内移；3. 使需求曲线旋转；4. 向市场发出信号（signaling），解决信息的不对称问题</p>
+<p>更严厉的政策可能会带来更好的结果</p>
+<p>在多人博弈的情境下，所有人不一定会因为选择变多而变得更好 &gt;&gt; 这和我们朴素的逻辑是相悖的</p>
+<p>选择变多，带来的结果不仅仅是自己的选择变多 &gt;&gt; 知道对方手中的牌更多 &gt;&gt; 策略性的互动更加复杂</p>
+<h4 id="battle-of-the-sexes">性别大战（Battle of the Sexes）<a class="headerlink" href="#battle-of-the-sexes" title="Permanent link">&para;</a></h4>
+<p>双方都没有占优策略。</p>
+<p>两个均衡的结果，到底哪个结果最终会被实现？不知道。</p>
+<p>此博弈中也存在策略性的互补。纳什均衡中恰好包含了所有帕累托有效的结果。</p>
+<h4 id="matching-pennies">便士匹配（Matching Pennies）<a class="headerlink" href="#matching-pennies" title="Permanent link">&para;</a></h4>
+<p>零和博弈（zero-sum game）&gt;&gt; 博弈中的所有结果都是帕累托有效的</p>
+<p>这个博弈中不存在<strong>纯策略的</strong>纳什均衡（pure strategy Nash equilibrium），但是存在<strong>混合策略</strong>的纳什均衡（mixed strategy Nash equilibrium）</p>
+<p>“双人以等概率出示正反面”是一个纳什均衡</p>
+<p>1抛硬币 &gt;&gt; 2对正反面无差异 &gt;&gt; 但是2为了让1在正反面无差异，他也会选择抛硬币</p>
+<h3 id="_77">纳什定理<a class="headerlink" href="#_77" title="Permanent link">&para;</a></h3>
+<p>在一个有N个玩家的博弈中（有限策略），至少存在一个纳什均衡</p>
+<p>纳什均衡在数学中就是<em>不动点</em></p>
+<h3 id="_78">博弈论刻画的寡头<a class="headerlink" href="#_78" title="Permanent link">&para;</a></h3>
+<h4 id="price-competitionbetrand">价格竞争（price competition）——Betrand竞争<a class="headerlink" href="#price-competitionbetrand" title="Permanent link">&para;</a></h4>
+<p>唯一的纳什均衡：两个寡头的价格都等于边际成本</p>
+<p>结果：两个企业都获得零利润 &gt;&gt; 和完全竞争的结果一样。符合现实吗？这是一个好结果吗？</p>
+<p>直觉：企业在价格上及其激烈的竞争</p>
+<p><strong>Betrand paradox.</strong></p>
+<p>引入企业的异质性？</p>
+<h4 id="quantity-competitioncournot">数量竞争（quantity competition）——Cournot竞争<a class="headerlink" href="#quantity-competitioncournot" title="Permanent link">&para;</a></h4>
+<h2 id="miscellany-and-frontiers">杂及前沿（Miscellany and Frontiers）<a class="headerlink" href="#miscellany-and-frontiers" title="Permanent link">&para;</a></h2>
+<h3 id="_79">折现与净现值<a class="headerlink" href="#_79" title="Permanent link">&para;</a></h3>
+<p>今天的1块钱 <span class="arithmatex">\(\neq\)</span> 明天的1块钱</p>
+<p>从心理（人的不耐心）和市场（投资、利息）两个因素，今天的钱和明天的钱都是不一样的</p>
+<p><strong>折现（discounting）</strong>：将未来的现金流折算到当期</p>
+<p>一年后的1000元的现值（present value）是：<span class="arithmatex">\(1000/(1+r）\)</span></p>
+<p>两年后的1000元的现值（present value）是：<span class="arithmatex">\(1000/(1+r）^2\)</span></p>
+<p>......</p>
+<p>利率越低，给定未来收益的现值更高 &gt;&gt; 反直觉？</p>
+<p><strong>利率刻画了当期消费的机会成本</strong> &gt;&gt; 当期消费1元钱，就放弃了存款1元钱获得的利息</p>
+<p><span class="arithmatex">\(r=0 \ {\rm or}\ r\to \infty\)</span> 意味着什么？</p>
+<p>例：教育的选择</p>
+<p>技术上，折现的概念解决了<strong>永续现金流</strong>的计算问题 &gt;&gt; 收敛的等比数列求和</p>
+<h3 id="_80">基尼系数和洛伦茨曲线<a class="headerlink" href="#_80" title="Permanent link">&para;</a></h3>
+<p>efficiency and equity ??</p>
+<p>公平更多是一个主观而非客观的评判标准</p>
+<h4 id="lorenz-curve">洛伦茨曲线（Lorenz curve）<a class="headerlink" href="#lorenz-curve" title="Permanent link">&para;</a></h4>
+<p>Cumulative percentage of income -- cumulative percentage of households</p>
+<p>基本性质：</p>
+<ul>
+<li>x轴最大为1，y轴最大为1</li>
+<li>起点是(0,0），终点是(1,1）</li>
+<li>洛伦茨曲线严格递增</li>
+<li>洛伦茨曲线位于45度线下（by definition）</li>
+</ul>
+<p>完全平等和完全不平等的情形，现实情况</p>
+<p>越靠近45度线越公平，反之越不公平</p>
+<p>洛伦茨曲线刻画了社会上所有财富的分布，没有任何信息的丢失</p>
+<h4 id="gini-coefficient">基尼系数（Gini coefficient）<a class="headerlink" href="#gini-coefficient" title="Permanent link">&para;</a></h4>
+<p>基尼系数是基于一个经济体的分布得到的<strong>一个数</strong></p>
+<p>而基尼系数只是一个数：从基尼系数不能得到一个经济体所有的信息（信息的丢失）
+$$
+{\rm Gini}=A/(A+B)
+$$
+基尼系数是社会不公平程度的度量，基尼系数越大，社会越不公平</p>
+<p>基尼系数为零 &gt;&gt; 只有社会完全公平这一种情况</p>
+<h4 id="_81">基尼系数与经济不平等<a class="headerlink" href="#_81" title="Permanent link">&para;</a></h4>
+<p>基尼只是定义平等的一个指标</p>
+<p>不同人对于平等的判断可以不一样</p>
+<p>税收对基尼系数的影响？（在不考虑人们对税收的反应的情况下）</p>
+<h3 id="_82">信息经济学<a class="headerlink" href="#_82" title="Permanent link">&para;</a></h3>
+<p>信息不对称会给市场带来效率的损失（inefficiency）</p>
+<h4 id="the-market-for-lemons">阿克洛夫的柠檬（The Market for Lemons）<a class="headerlink" href="#the-market-for-lemons" title="Permanent link">&para;</a></h4>
+<p>低质量的产品可能会驱逐高质量的产品（劣币驱逐良币）</p>
+<p>价格传递了商品质量的信息——消费者真正关心而无法知道的信息</p>
+<p>市场中的买家无法区分二手车的质量 &gt;&gt; 市场上只能存在一个价格（买家不能区分车的好坏）</p>
+<p>均衡价格？</p>
+<p><strong>买家从价格中推断产品的质量，从而更新自己对产品的支付意愿</strong> &gt;&gt; 这件事情在信息对称的时候是不会出现的</p>
+<p>最后结果：市场上只有差车能够达成交易！市场是没有效率的！</p>
+<p>给定任意价格，质量较差的卖家先进⼊市场，这种现象在经济学中被称为逆向选择（adverse selection）</p>
+<blockquote>
+<p>例：如何提高土鸡售价？</p>
+<p>随着生活水平不断提升，人们对健康的追求越来越高。散养土鸡称为一种新的流行趋势。</p>
+<p>如何让消费者相信在市场上的鸡是土鸡，从而提高售价？</p>
+<p>关键：消除消费者与卖家之间的信息不对称 &gt;&gt; 数字赋能：给鸡加上计数器</p>
+<p>给鸡上保险，将土鸡品质关键指标与保险责任直接挂钩</p>
+</blockquote>
+<h4 id="_83">信息不对称与市场激励<a class="headerlink" href="#_83" title="Permanent link">&para;</a></h4>
+<p>交易双方可以采取手段来减少信息不对称带来的不利影响</p>
+<p>例⼦1：劳动⼒市场及信号理论（Spence, 1973）</p>
+<p>Signaling Model</p>
+<p>信号对于不同类型的人的成本是有差别的</p>
+<p>即使教育是没有用的，教育依然是有价值的 &gt;&gt; 缓解劳动力市场上的信息不对称现象</p>
+<blockquote>
+<p>例：现代集团</p>
+<p>如果产品质量过硬，如何才能取信于市场？、</p>
+<p>10年保修条款</p>
+</blockquote>
+<p>例子2：保险市场及契约设计（Rothchild and Stiglitz, 1976）</p>
+<p>Screening Model</p>
+<p>保险市场中，给定保险的价格，高风险的客户会首先进行购买。保险公司该如何解决由于信息不对称带来的无效率问题？</p>
+<p>这就是一种二级价格歧视</p>
+<p>消费者在做出选择的时候就披露了消费者才拥有的信息</p>
+<blockquote>
+<p>例：出版社如何在发行畅销书时甄别不同支付意愿的读者？</p>
+<p>精装版 or 平装版？？</p>
+<p>发行时间的不同</p>
+<p>其他例子：小米盒子还是电影院？</p>
+</blockquote>
+<h4 id="_84">重温阿克洛夫的柠檬<a class="headerlink" href="#_84" title="Permanent link">&para;</a></h4>
+<p>信息不对称会使得市场失灵（market failure）</p>
+<p>问题：买卖双方信息不对称程度增加，市场效率会如何变化？</p>
+<p>如何刻画信息不对称的程度？</p>
+<p>方法一：信息不对称来自汽车质量的差异</p>
+<p>⽅法⼆：信息不对称来自汽车质量分布的集中程度</p>
+<p>信息越不对称市场越没有效率？？果真如此？？
+$$
+\begin{array}{cccc}
+&amp; L&amp;M&amp;H\\
+{\rm Willingness\ to\ pay}&amp;14&amp;28&amp;42\\
+{\rm Willingness\ to\ sell}&amp;0&amp;20&amp;40\\
+\end{array}
+$$
+市场中有好、中、差车各50辆</p>
+<ul>
+<li>情形1：交易前，卖家也不知道产品的质量</li>
+<li>此时，买卖双方拥有相同的信息（symmetrically uninformed）</li>
+<li>信息是对称的，由此市场是有效率的</li>
+<li>情形2：卖家获得部分的产品信息（partially informed）</li>
+<li>卖家可以辨别Lemon，但是无法区分Melon和Peach &gt;&gt; 市场上存在两种卖家</li>
+<li>唯一的均衡价格在0到14之间，市场交易量仅为50</li>
+<li>情形3：卖家获得全部的产品信息（completely informed）</li>
+<li>此时，买卖双方的信息不对称程度最为严重</li>
+<li>市场均衡价格在20到21之间，市场交易量为100</li>
+</ul>
+<p>比较情形2和情形3：更多的信息不对称会导致市场更加有效率！！</p>
+<p>随着卖家拥有关于产品的信息越来越多，买卖双方之间的信息不对称越来越严重</p>
+<p>卖家的出售意愿变得越来越分散：(20) &gt;&gt; (0, 30) &gt;&gt; (0, 20, 40)</p>
+<p>加入信息不对称的对象是市场内还是市场外？如果是市场内的卖家获得信息，拿到好信息的卖家想要离开市场；但如果是市场外的卖家获得信息，拿到不那么好信息的卖家可能想要重新回到市场。</p>
+<h4 id="information-asymmetry-in-insurance-market">信息不对称在保险市场中的应用：重回供需（Information Asymmetry in Insurance Market）<a class="headerlink" href="#information-asymmetry-in-insurance-market" title="Permanent link">&para;</a></h4>
+<p>在完全信息的市场上，供给和需求是割裂的（生产者的成本不因商品的销售对象的改变而发生变化）</p>
+<p>然而在保险市场上，生产和消费是紧密联系在一起的</p>
+<p>考察消费者的支付意愿</p>
+<p>风险溢价（risk premium）</p>
+<p>由于逆向选择，给定任一价格，高风险的消费者先进入市场进行购买</p>
+<p>MC和ATC都向右下方倾斜！和完全信息的情形不一样</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 2024 <a href="https://github.com/Shocked-Pikachu" target="_blank" rel="noopener"> Haoyu Mo</a>
+
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://github.com/Shocked-Pikachu" target="_blank" rel="noopener" title="My Github" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="mailto:<mohy@stu.pku.edu.cn>" target="_blank" rel="noopener" title="Send Me An Email" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M64 112c-8.8 0-16 7.2-16 16v22.1l172.5 141.6c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16h384c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128c0-35.3 28.7-64 64-64h384c35.3 0 64 28.7 64 64v256c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../../..", "features": ["navigation.indexes", "navigation.tabs", "navigation.top", "toc.follow", "search.suggest", "search.highlight", "search.share", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+    
+    
+      <script src="../../../../assets/javascripts/bundle.c8d2eff1.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+      
+    
+  </body>
+</html>

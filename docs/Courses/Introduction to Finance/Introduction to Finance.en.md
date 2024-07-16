@@ -74,7 +74,7 @@ APR does not take into account the compounding of interest within a specific yea
   + More examples
     + Zero-coupon bond (ZCB)
     + Perpetuity
-  + Coupon rate & interest rate? (related to p~0~ / FV)
+  + Coupon rate & interest rate? (related to $p_0 / FV$)
 + Factors that influence yields
 
 ### Equities
@@ -197,7 +197,7 @@ Exchanged-traded funds
 ### Nominal Return and Real Return
 
 $$
-r=\frac{1+i}{1+\pi}-1\approx i-\pi\nonumber
+r=\frac{1+i}{1+\pi}-1\approx i-\pi
 $$
 
 Where $\pi$ is the inflation rate, $r$ is the real return, and $i$ is the nominal return
@@ -228,7 +228,7 @@ Assumption: Most investors are **risk averse**, indicating that they reject inve
 
 Utility function
 $$
-U=E(r)-\frac12A\sigma^2\nonumber
+U=E(r)-\frac12A\sigma^2
 $$
 Where $E(r)$ is the expected return on the asset, $\sigma^2$ is the varience of returns.
 
@@ -270,8 +270,8 @@ Portfolio: $r_p=\sum_{i=1}^{N}w_ir_i$
 
 Portfolio expected return and risk:
 $$
-E(r_p)=w_1E(r_1)+w_2E(r_2)\\
-\sigma_p^2=w_1^2\sigma_1^2+w_2^2\sigma_2^2+2w_1w_2\sigma_{12}\nonumber
+E(r_p)=w_1E(r_1)+w_2E(r_2)\\\
+\sigma_p^2=w_1^2\sigma_1^2+w_2^2\sigma_2^2+2w_1w_2\sigma_{12}
 $$
 
 ### Portfolios with a risk-free asset
@@ -281,14 +281,14 @@ If $\sigma_1^2=0$, then $\sigma_p^2=w_2^2\sigma_2^2$.
 #### Capital Allocation Line, CAL
 
 $$
-E(r_c)=r_f+y(E(r_p)-r_f)=r_f+S\sigma_c\nonumber
+E(r_c)=r_f+y(E(r_p)-r_f)=r_f+S\sigma_c
 $$
 
 $E(r_p)-r_f$ is called the **risk-premium** of the asset $P$​.
 
 $S$: Reward-to-Volatility (Sharpe) Ratio
 $$
-S=\frac{\rm Risk\ premium}{\rm SD\ of\ excess\ returns}=\frac{E(r_p)-r_f}{\sigma_p}\nonumber
+S=\frac{\rm Risk\ premium}{\rm SD\ of\ excess\ returns}=\frac{E(r_p)-r_f}{\sigma_p}
 $$
 *What does the CAL look like if borrowing rate exceeds $r_f$?*
 
@@ -300,7 +300,7 @@ CAL becomes flatter when $y>1$.
 
 The solution to optimal portfolio allocation is
 $$
-y^*=\frac{E(r_p)-r_f}{A\sigma_p^2}\nonumber
+y^*=\frac{E(r_p)-r_f}{A\sigma_p^2}
 $$
 We can also obtain this solution by moving indifference curves.
 
@@ -317,8 +317,8 @@ Firm-specific risk (can be eliminated by diversification)
 ### Portfolio of Two Risky Assets
 
 $$
-E(r_p)=(1-x)E(r_d)+xE(r_e)\\
-\sigma_p^2=(1-x)^2\sigma_d^2+x^2\sigma_e^2+2x(1-x)\sigma_{de}\nonumber
+E(r_p)=(1-x)E(r_d)+xE(r_e)\\\
+\sigma_p^2=(1-x)^2\sigma_d^2+x^2\sigma_e^2+2x(1-x)\sigma_{de}
 $$
 
 **Portfolio opportunity set**: $(\sigma_p,E(r_p))$ combinations obtained by varying $x$.
@@ -329,7 +329,7 @@ We can prove that the portfolio opportunity set curve is a hyperbola on $E(r_p)-
 
 > e.g. If we have two assets $D$ and $E$ with the same expected return but different standard deviation, but their returns are independent ($\sigma_{DE}=0$), we can still combine two risky assets in a way that minimizes the risk.
 > $$
-> \min x^2\sigma_D^2+(1-x)^2\sigma_E^2\nonumber
+> \min x^2\sigma_D^2+(1-x)^2\sigma_E^2
 > $$
 > Obviously, $x$ is neither 0 nor 1.
 
@@ -364,11 +364,11 @@ Expected returns: $E(r_1),...E(r_n)$.
 Variances and covariances: covariance matrix
 $$
 \begin{pmatrix}
-\sigma_1^2 & \sigma_{12} & \cdots & \sigma_{1n}\\
-\sigma_{21}& \sigma_2^2  & \cdots & \sigma_{2n}\\
-\vdots		 & \vdots			 &				& \vdots\\
+\sigma_1^2 & \sigma_{12} & \cdots & \sigma_{1n}\\\
+\sigma_{21}& \sigma_2^2  & \cdots & \sigma_{2n}\\\
+\vdots		 & \vdots			 &				& \vdots\\\
 \sigma_{n1}& \sigma_{n2} & \cdots & \sigma_n^2
-\end{pmatrix}\nonumber
+\end{pmatrix}
 $$
 This is a symmetric matrix, therefore, there is only $n(n+1)/2$ unique covariances (variances).
 
@@ -376,14 +376,14 @@ This is a symmetric matrix, therefore, there is only $n(n+1)/2$ unique covarianc
 
 Portfolio expected return is the weight average of the expected returns of the underlying assets.
 $$
-E(r_p)=\sum_{i=1}^{n}w_iE(r_i)\nonumber
+E(r_p)=\sum_{i=1}^{n}w_iE(r_i)
 $$
 
 #### Portfolio Risk
 
 Portfolio variance depends on variances and covariances of the returns of underlying assets, and portfolio weights.
 $$
-\sigma_p^2=\sum_{i=1}^{n}\sum_{j=1}^{n}w_iw_j\sigma_{ij}\nonumber
+\sigma_p^2=\sum_{i=1}^{n}\sum_{j=1}^{n}w_iw_j\sigma_{ij}
 $$
 Note that $\sigma_{ii}=\sigma_i^2$ and $\sigma_{ij}=\sigma_{ji}$.
 
@@ -424,7 +424,7 @@ Hypothesis: movements in $R_i$ and $R_m$ are correlated.
 ### Index Model
 
 $$
-R_i=\alpha_i+\beta_iR_m+e_i\nonumber
+R_i=\alpha_i+\beta_iR_m+e_i
 $$
 
 $\beta$ is called exposure, which reflects teh sensitivity to factors that affect all securities.
@@ -452,11 +452,11 @@ Predicted value: $\hat{R_i}=\hat{\alpha_i}+\hat{\beta_i}R_m$
 
 Mean value:
 $$
-m=\frac{1}{T}\sum_{t=1}^{T}\hat{e_i}=0\nonumber
+m=\frac{1}{T}\sum_{t=1}^{T}\hat{e_i}=0
 $$
 An unbiased estimator of the variance $\sigma^2(e_i)$:
 $$
-s^2(e_i)=\frac{1}{T-2}\sum_{t=1}^{T}\hat{e_i}^2=\frac{SSR}{T-2}\nonumber
+s^2(e_i)=\frac{1}{T-2}\sum_{t=1}^{T}\hat{e_i}^2=\frac{SSR}{T-2}
 $$
 Degrees of freedom of $\hat{e_i}$: $T-2$
 
@@ -464,7 +464,7 @@ Degrees of freedom of $\hat{e_i}$: $T-2$
 
 We can decompose the risk of $R_i$​ into two components: systematic and idiosyncratic
 $$
-\sigma^2_i=\beta_i^2\sigma_m^2+\sigma^2(e_i)\nonumber
+\sigma^2_i=\beta_i^2\sigma_m^2+\sigma^2(e_i)
 $$
 Here, we used $R_i=\alpha_i+\beta_iR_m+e_i$ and $cov(e_i,R_m)=0$.
 
@@ -474,13 +474,13 @@ We assume the above model holds (other factors? other models?).
 
 Consider an equally weighted portfolio $P$
 $$
-R_p=\alpha_p+\beta_pR_m+e_p\nonumber
+R_p=\alpha_p+\beta_pR_m+e_p
 $$
 where $\alpha_p$, $\beta_p$, and $e_p$ are the mean value of $\alpha_i$, $\beta_i$, and $e_i$
 
 Then the variance $\sigma^2(e_p)$​ becomes
 $$
-\sigma^2(e_p)=\frac{1}{n^2}\sum_{i=1}^n\sigma^2(e_i)=\frac1n\overline{\sigma^2}\to0(n\to\infty)\nonumber
+\sigma^2(e_p)=\frac{1}{n^2}\sum_{i=1}^n\sigma^2(e_i)=\frac1n\overline{\sigma^2}\to0(n\to\infty)
 $$
 As $n\to\infty$, $e_p$ has zero mean and (approximately) zero variance >> we can consider $e_p$ as zero.
 
@@ -496,7 +496,7 @@ When the market clears, **optimal risky portfolio must be the market portfolio**
 
 CAPM is not aimed for predicting return, but it can provide a estimation for **fair return** (benchmark)
 $$
-E(r)=\frac{E(P)-P_0}{P_0}(>,<,=)\ {\rm fair\ value}\nonumber
+E(r)=\frac{E(P)-P_0}{P_0}(>,<,=)\ {\rm fair\ value}
 $$
 
 ### CAPM Assumption
@@ -513,11 +513,11 @@ Intuition: When adding a new security into the existing market, how would this n
 
 Variance of Market Portfolio:
 $$
-\sigma_m^2=\sum_i\sum_jw_iw_j\sigma_{ij}=\sum_iw_i\sigma_{im}\nonumber
+\sigma_m^2=\sum_i\sum_jw_iw_j\sigma_{ij}=\sum_iw_i\sigma_{im}
 $$
 Here $\sigma_{im}$ is the covariance of $r_i$ with the market return $r_m$:
 $$
-\sigma_{im}=Cov\left(r_i,\sum_{j}w_jr_j\right)=\sum_jw_j\sigma_{ij}\nonumber
+\sigma_{im}=Cov\left(r_i,\sum_{j}w_jr_j\right)=\sum_jw_j\sigma_{ij}
 $$
 Therefore, the **contribution of asset $i$ to $\sigma_m^2$ is $w_i\sigma_{im}$**
 
@@ -528,7 +528,7 @@ The key idea is that **$i$'s contribution to risk premium = $i$'s contribution t
 
 Result:
 $$
-E(r_i)=r_f+\frac{\sigma_{im}}{\sigma_m^2}(E(r_m)-r_f)\nonumber=r_f+\beta_i(E(r_m)-r_f)
+E(r_i)=r_f+\frac{\sigma_{im}}{\sigma_m^2}(E(r_m)-r_f)=r_f+\beta_i(E(r_m)-r_f)
 $$
 Risk premium is proportional to $\beta_i$, which reflects the contribution of asset $i$ to market variance
 
@@ -546,7 +546,7 @@ Although some assets could deviate from SML, but eventually, all assets will ret
 
 Index model is only a econometric model, and its slope parameter is
 $$
-\beta_i=\frac{Cov(R_i,R_m)}{Var(R_m)}\nonumber
+\beta_i=\frac{Cov(R_i,R_m)}{Var(R_m)}
 $$
 The index model beta coefficient is the same as the beta of the CAPM expected return-beta relationship.
 
@@ -587,7 +587,7 @@ For 2 **well-diversified** portfolios $P$ and $Q$, if they have equal betas then
 
 Different betas? The APT states that for all well-diversified portfolios, the risk premium is proportional to beta
 $$
-\frac{E(r_P)-r_f}{\beta_P}=\frac{E(r_Q)-r_f}{\beta_Q}\nonumber
+\frac{E(r_P)-r_f}{\beta_P}=\frac{E(r_Q)-r_f}{\beta_Q}
 $$
 A brief proof: If $P$ and $Q$ have different betas, we can combine $P$ with a risk-free asset to construct a new portfolio $S$ that has the same beta as $Q$​. Then based on the previous discussion, we know $S$ and $Q$ should have the same expected returns.
 
@@ -603,7 +603,7 @@ APT does not require restrictive CAPM assumptions, and is based on **arbitrage**
 
 For a zero-coupon bond (ZCB) maturing in $t$ years with a price of $P$, the yield $y$ of the bond solves the following equation:
 $$
-P=\frac{100}{(1+y)^t}\nonumber
+P=\frac{100}{(1+y)^t}
 $$
 Bonds are often quoted at a **spread** = yield - $r_f$
 
@@ -629,7 +629,7 @@ The dollar duration measures the dollar change in a bond's value to a change in 
 
 Also call money duration of DV01.
 $$
-\Delta P=-DV01\times\Delta y\nonumber
+\Delta P=-DV01\times\Delta y
 $$
 However, this relation only holds approximately because the relation between price and yield is non-linear.
 
@@ -665,7 +665,7 @@ spot rate: $y_2$ / short rate today: $r_1$ / short rate next year: $r_2$
 
 A spot rate is the geometric average of its component short rates.
 $$
-(1+y_2)^2=(1+r_1)(1+r_2),\ r_1=y_1\nonumber
+(1+y_2)^2=(1+r_1)(1+r_2),\ r_1=y_1
 $$
 If $r_2>r_1$, the yield curve slopes up - May indicate rates are expected to rise.
 
@@ -675,13 +675,13 @@ Future interest rates are uncertain?? - **Forward interest rates**: a forecast o
 
 In general, we have
 $$
-1+f_n=\frac{(1+y_n)^n}{(1+y_{n-1})^{n-1}}\nonumber
+1+f_n=\frac{(1+y_n)^n}{(1+y_{n-1})^{n-1}}
 $$
 ### The Yield Curve under Uncertainty
 
 When future interest rates are uncertain?
 $$
-(1+y_2)^2=(1+r_1)(1+E(r_2))\nonumber
+(1+y_2)^2=(1+r_1)(1+E(r_2))
 $$
 $E(r_2)$ denotes expected short rate for the following year
 
@@ -689,7 +689,7 @@ $E(r_2)$ denotes expected short rate for the following year
 >
 > 1-year zero v.s. 2-year zero
 > $$
-> E(P_1)=\frac{1000}{1+E(r_2)},\quad\frac{E(P_1)-P_0}{P_0}>r_1\nonumber
+> E(P_1)=\frac{1000}{1+E(r_2)},\quad\frac{E(P_1)-P_0}{P_0}>r_1
 > $$
 > Investors are risk averse, so they require a risk premium to hold a longer-term bond >> $E(r_2)<f_2$​
 
@@ -707,7 +707,7 @@ The risk premium will be zero.
 
 If the liquidity premium is zero
 $$
-f_n=E(r_n)\nonumber
+f_n=E(r_n)
 $$
 A long-term horizon investor would be inclined to invest in long-term bonds, while a short-term horizon investor would be inclined to invest in short-term bonds (Suppose all investors are risk averse).
 
@@ -732,7 +732,7 @@ Stocks don't promise any stream of payments - Both dividends and capital gains a
 
 Expected return from buying shares:
 $$
-E(r)=\frac{E(D_1)+E(P_1)-P_0}{P_0}\nonumber
+E(r)=\frac{E(D_1)+E(P_1)-P_0}{P_0}
 $$
 
 It is important to forecast a reasonable value of $P_0$
@@ -741,7 +741,7 @@ It is important to forecast a reasonable value of $P_0$
 
 The **market capitalization** rate $k$ of a security is the expected return which is commensurate with its risk $\beta$​.
 $$
-k=r_f+\beta(E(r_m)-r_f)\nonumber
+k=r_f+\beta(E(r_m)-r_f)
 $$
 also called the **required rate of return**
 
@@ -754,7 +754,7 @@ If we know $k,E(P_1),E(D_1)$, we can estimate the fundamental value $V_0$ (If $P
 Key assumption: prices equal fundamental values in future
 
 $$
-V_0=\frac{D_1}{1+k}+\frac{D_2}{(1+k)^2}+\frac{D_3}{(1+k)^3}+\cdots\nonumber
+V_0=\frac{D_1}{1+k}+\frac{D_2}{(1+k)^2}+\frac{D_3}{(1+k)^3}+\cdots
 $$
 which equals the cash flow that the shareholder will get from long-term stock ownership.
 
@@ -762,11 +762,11 @@ which equals the cash flow that the shareholder will get from long-term stock ow
 
 Suppose dividend grows at a constant annual rate $g$ ($g<k$)
 $$
-D_n=D_{n-1}(1+g)=D_1(1+g)^{n-1}\nonumber
+D_n=D_{n-1}(1+g)=D_1(1+g)^{n-1}
 $$
 We can derive that
 $$
-V_0=\frac{D_1}{k-g}\nonumber
+V_0=\frac{D_1}{k-g}
 $$
 ### Multistage DDM
 
@@ -784,7 +784,7 @@ The dividend growth rate is proportional to both ROE and retention ratio: $g=ROE
 
 The price-earning ratio is
 $$
-\frac{P_0}{E_1}=\frac{1-b}{k-g}\nonumber
+\frac{P_0}{E_1}=\frac{1-b}{k-g}
 $$
 
 ## Option Strategies and Put-Call Parity
@@ -855,7 +855,7 @@ The idea underlies the **Put-Call Parity Theorem**
 
 Construct two strategies with identical payoffs in every contingency: Protective Put & Call + Bills
 $$
-S_0+P=C+\frac{X}{(1+r_f)^T}\nonumber
+S_0+P=C+\frac{X}{(1+r_f)^T}
 $$
 If dividend is paid, $X\to X-D$
 
@@ -878,7 +878,7 @@ We need to prove that $\forall t,\ C_t\ge S_t-X$​
 
 Consider two strategies: call option & leveraged equity >> Call payoff always not less than leveraged equity payoff
 $$
-C>S_0-\frac{X}{(1+r_f)^T}>S_0-X\nonumber
+C>S_0-\frac{X}{(1+r_f)^T}>S_0-X
 $$
 Selling the American Call is more attactive than exercising it early. They are **"worth more alive than dead"** (no dividend)
 
@@ -900,15 +900,17 @@ Alternative: covered call & risk-free assets
 
 Define the hedge ratio
 $$
-H=\frac{C^+-C^-}{S^+-S^-}\nonumber
+H=\frac{C^+-C^-}{S^+-S^-}
 $$
 Consider the strategy: write one option, buy $H$ shares. It is easy to show that this portfolio is **perfectly hedged** (risk-free)
 
 *Generalizing the Two-State Approach...*
 $$
-C_u=xuS_u+Ry,\ C_d=xdS_d+Ry\\
-C_0=xS_0+y=\frac1R\left(\frac{R-d}{u-d}C_u+\frac{u-R}{u-d}C_d\right)\\
-C_0=\frac1R[qC_u+(1-q)C_d]=\frac1RE^Q(C_1)\nonumber
+\begin{aligned}
+C_u&=xuS_u+Ry,\ C_d=xdS_d+Ry\\\
+C_0&=xS_0+y=\frac1R\left(\frac{R-d}{u-d}C_u+\frac{u-R}{u-d}C_d\right)\\\
+C_0&=\frac1R[qC_u+(1-q)C_d]=\frac1RE^Q(C_1)
+\end{aligned}
 $$
 We can regard $q$ as a probability (risk-neutral probability)
 
@@ -916,18 +918,18 @@ We can regard $q$ as a probability (risk-neutral probability)
 
 $$
 \begin{matrix}
-& & uS_0\\
-& \nearrow &\\
-S_0 & & \\
-& \searrow & \\
+& & uS_0\\\
+& \nearrow &\\\
+S_0 & & \\\
+& \searrow & \\\
 & & dS_0
 \end{matrix}\quad\begin{matrix}
-& & C_u\\
-& \nearrow &\\
-C_0 & & \\
-& \searrow & \\
+& & C_u\\\
+& \nearrow &\\\
+C_0 & & \\\
+& \searrow & \\\
 & & C_d
-\end{matrix}\nonumber
+\end{matrix}
 $$
 
 Consider the above value tree
@@ -936,17 +938,17 @@ Portfolio A: $x$ stocks + $\$y$ T-bills = Portfolio B: Call option
 
 No arbitrage condition tells us that the two portfolio should have the same payoff as well as the same price
 $$
-xuS_0+yR=C_u\\
-xdS_0+yR=C_d\nonumber
+xuS_0+yR=C_u\\\
+xdS_0+yR=C_d
 $$
 Here $R=1+r_f$​
 
 We can solve for $x$ and $y$, then we know $C_0=xS_0+y$
 $$
 \begin{aligned}
-C_0&=\frac1R\left(\frac{R-d}{u-d}C_u+\frac{u-R}{u-d}C_d\right)\\
+C_0&=\frac1R\left(\frac{R-d}{u-d}C_u+\frac{u-R}{u-d}C_d\right)\\\
 &=\frac1R(qC_u+(1-q)C_d)
-\end{aligned}\nonumber
+\end{aligned}
 $$
 Here we define the risk neutral probability $q=(R-d)/(u-d)$, note that we always have $d<R<u$ (yes?)
 
@@ -980,7 +982,7 @@ Only 1-3% of contracts result in actual delivery of the underlying commodity (Th
 
 The futures price and the spot price must converge at maturity
 $$
-{\rm Basis}_t={\rm Spot\ Price-Future\ Price}=S_t-F_t\nonumber
+{\rm Basis}_t={\rm Spot\ Price-Future\ Price}=S_t-F_t
 $$
 The difference is approximately 5 percent
 
@@ -996,7 +998,7 @@ Let $S_T$ denote value of index at time $T$ / Profit to short futures position i
 
 Buy index and short futures position >> The portfolio is risk-free
 $$
-F_0=S_0(1+r_f-d)^T\nonumber
+F_0=S_0(1+r_f-d)^T
 $$
 This is the Spot-Futures Parity Theorem, where $d$ is the **divident yield**: $d=D/S_0$
 
@@ -1015,7 +1017,7 @@ Direct quotation & Indirect quotation
 
 **Covered interest parity** (indirect quotation)
 $$
-(1+i_¥)\frac{F_0}{S_0}=(1+i_\$)\nonumber
+(1+i_¥)\frac{F_0}{S_0}=(1+i_\$)
 $$
 If $i_\$$ goes up, $S_0$ goes down - RMB depreciates
 
@@ -1049,7 +1051,7 @@ Junior tranche & Senior tranche: the probability of default for each of the two 
 
 The probability of joint default:
 $$
-p_{DD}=p_D^2+c\times p_D\times(1-p_D)\nonumber
+p_{DD}=p_D^2+c\times p_D\times(1-p_D)
 $$
 **Pairwise default correlation parameter** $c$ describes to what extent two defaults are correlated
 
@@ -1059,7 +1061,7 @@ Insight: If the two assets are independent, the senior tranche has a low risk. B
 
 ### Simple Illustration of CDO-Squared
 
-The junior tranches default at a 19% rate (which is high), but if we **combine the junior tranches into another CDO**, then the senior tranche of the second-round CDO defaults with probability 3.6% (which is much lower) - CDO-squared (CDO^2^)
+The junior tranches default at a 19% rate (which is high), but if we **combine the junior tranches into another CDO**, then the senior tranche of the second-round CDO defaults with probability 3.6% (which is much lower) - [CDO-squared](https://www.investopedia.com/terms/c/cdo2.asp) (CDO$^2$)
 
 Note that the same issue with correlation applies yet again
 

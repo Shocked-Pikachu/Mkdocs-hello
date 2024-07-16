@@ -45,6 +45,7 @@ markdown_extensions:
       permalink: true
   - pymdownx.arithmatex:
       generic: true
+  - pymdownx.superfences
 
 
 extra:
@@ -57,7 +58,7 @@ extra:
       link: mailto:<mohy@stu.pku.edu.cn>
 
 extra_javascript:
-  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML
 
 plugins:
   - search:
@@ -78,13 +79,14 @@ plugins:
           nav_translations:
             Courses: 课程
             Introduction to Finance: 金融学概论
+            Principles of Economics (I): 经济学原理（I）
           theme:
             palette:
               # Palette toggle for light mode
               - media: "(prefers-color-scheme: light)"
                 scheme: default
                 primary: red
-                accent: blue
+                accent: pink
                 toggle:
                   icon: material/weather-sunny
                   name: "切换至暗色模式"
@@ -96,6 +98,3 @@ plugins:
                 toggle:
                   icon: material/weather-night
                   name: "切换至亮色模式"
-
-
-
