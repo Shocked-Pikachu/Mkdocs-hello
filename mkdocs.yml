@@ -1,0 +1,101 @@
+site_name: "Moe's Page"
+
+copyright: |
+  &copy; 2024 <a href="https://github.com/Shocked-Pikachu" target="_blank" rel="noopener"> Haoyu Mo</a>
+
+theme:
+  name: material
+  features:
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.top
+    # - navigation.expand
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+
+  palette:
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      name: My Github
+      link: https://github.com/Shocked-Pikachu
+    - icon: /fontawesome/regular/envelope
+      name: Send Me An Email
+      link: mailto:<mohy@stu.pku.edu.cn>
+
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+
+plugins:
+  - search:
+      lang:
+        - en
+        - zh
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: zh
+          name: 简体中文
+          build: true
+          site_name: "莫 的主页"
+          nav_translations:
+            Courses: 课程
+            Introduction to Finance: 金融学概论
+          theme:
+            palette:
+              # Palette toggle for light mode
+              - media: "(prefers-color-scheme: light)"
+                scheme: default
+                primary: red
+                accent: blue
+                toggle:
+                  icon: material/weather-sunny
+                  name: "切换至暗色模式"
+              # Palette toggle for dark mode
+              - media: "(prefers-color-scheme: light)"
+                scheme: slate
+                primary: black
+                accent: indigo
+                toggle:
+                  icon: material/weather-night
+                  name: "切换至亮色模式"
+
+
+
