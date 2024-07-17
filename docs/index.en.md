@@ -2,7 +2,7 @@
 
 ## About Me
 
-<div align=left> <img src="assets/Pikachu.jpg" width=150> </div>
+<div align=left> <img src="assets/img/Pikachu.jpg" width=150> </div>
 
 I am currently a junior (third-year) undergraduate student at the School of Physics, Peking University, and I will be starting as a PhD candidate in the same school in the Fall of 2025.
 

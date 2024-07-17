@@ -2,7 +2,7 @@
 
 ## 关于我
 
-<div align=left> <img src="/assets/Pikachu.jpg" width=150> </div>
+<div align=left> <img src="../assets/img/Pikachu.jpg" width=150> </div>
 
 我目前是北京大学物理学院的一名大三学生，同时也是2025年秋季入学的物理学院博士生。 
 
